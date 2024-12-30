@@ -1,4 +1,5 @@
 #!/bin/bash
+# adapted from networkchuck!
 set -euo pipefail
 
 # Change to the script's directory
