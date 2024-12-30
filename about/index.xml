@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on </title>
-    <link>//localhost:1313/about/</link>
+    <link>/about/</link>
     <description>Recent content in About on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/about/</link>
+      <link>/about/about/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/about/</guid>
+      <guid>/about/about/</guid>
       <description>&lt;h2 id=&#34;daniel-makes-interactive-audio-experiences-and-composes-music-for-physical-and-digital-spaces&#34;&gt;Daniel makes interactive audio experiences and composes music for physical and digital spaces.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;composer-sound-designer-and-tinkerer-currently-building-lufs-audiohttpslufsaudio-and-working-with-clients-in-the-bay-area&#34;&gt;Composer, Sound Designer, and tinkerer. Currently building &lt;a href=&#34;https://lufs.audio&#34; target=&#34;_blank&#34;&gt;LUFS Audio&lt;/a&gt;, and working with clients in the Bay Area.&lt;/h3&gt;&#xA;&lt;h4 id=&#34;when-not-at-my-desk-youll-find-me-trying-to-learn-something-new&#34;&gt;When not at my desk, you&amp;rsquo;ll find me trying to learn something new.&lt;/h4&gt;</description>
     </item>
   </channel>
