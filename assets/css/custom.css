@@ -1,0 +1,54 @@
+/* Header styles with medium-bright ROYGBIV colors */
+.content h1 {
+    color: #FF0000;  /* Red #FF0000, can also try medium red #FF6B6B*/
+}
+
+.content h2 {
+    color: #FF7F00;  /* Orange, can try medium orange #FFA07A */
+}
+
+.content h3 {
+    color: #FFFF00;  /* Yellow, can try medium yellow #FFE066 */
+}
+
+.content h4 {
+    color: #00FF00;  /* Green, can try medium green #7FD17F */
+}
+
+.content h5 {
+    color: #0000FF;  /* Blue, can try Medium Blue #6EA8FE */
+}
+
+.content h6 {
+    color: #4B0082;  /* Indigo, can try Medium Violet #B088FF */
+}
+
+/* Text selection style */
+::selection {
+    background: #B14FFF;  /* Bright purple */
+    color: #ffffff;  /* White text */
+}
+
+/* For Firefox */
+::-moz-selection {
+    background: #B14FFF;  /* Bright purple */
+    color: #ffffff;  /* White text */
+}
+
+/* Link styles */
+.content a {
+    color: #00CED1;  /* Aqua blue */
+    text-decoration: none;  /* Removes underline */
+    border-bottom: 1px dotted #00CED1;  /* Adds subtle dotted underline */
+    transition: all 0.2s ease;  /* Smooth transition for hover effect */
+}
+
+.content a:hover {
+    color: #FF69B4;  /* Hot pink on hover */
+    border-bottom: 1px solid #FF69B4;  /* Solid underline on hover */
+}
+
+/* hides the dark/light toggle */
+.light-dark {
+    display: none !important;
+}
