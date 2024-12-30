@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/about/</link>
+      <link>/about/about/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/about/</guid>
+      <guid>/about/about/</guid>
       <description>&lt;h2 id=&#34;daniel-makes-interactive-audio-experiences-and-composes-music-for-physical-and-digital-spaces&#34;&gt;Daniel makes interactive audio experiences and composes music for physical and digital spaces.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;composer-sound-designer-and-tinkerer-currently-building-lufs-audiohttpslufsaudio-and-working-with-clients-in-the-bay-area&#34;&gt;Composer, Sound Designer, and tinkerer. Currently building &lt;a href=&#34;https://lufs.audio&#34; target=&#34;_blank&#34;&gt;LUFS Audio&lt;/a&gt;, and working with clients in the Bay Area.&lt;/h3&gt;&#xA;&lt;h4 id=&#34;when-not-at-my-desk-youll-find-me-trying-to-learn-something-new&#34;&gt;When not at my desk, you&amp;rsquo;ll find me trying to learn something new.&lt;/h4&gt;</description>
     </item>
     <item>
       <title>Resume</title>
-      <link>//localhost:1313/resume/resume/</link>
+      <link>/resume/resume/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/resume/resume/</guid>
+      <guid>/resume/resume/</guid>
       <description>&lt;h1 id=&#34;daniel-ramirez&#34;&gt;Daniel Ramirez&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sound-designer&#34;&gt;Sound Designer&lt;/h2&gt;&#xA;&lt;p&gt;Sound Designer specializing in interactive audio implementation, sound synthesis, and audio pipeline development for mobile applications and live performances. Experienced in working with industry-leading professionals and managing complex audio workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;mailto:daniel@danialrami.com&#34;&gt;daniel@danialrami.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-proficiency&#34;&gt;Technical Proficiency&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Audio Software &amp;amp; Hardware&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unreal Engine 5, Unity&lt;/li&gt;&#xA;&lt;li&gt;Wwise, Pro Tools, Logic Pro X&lt;/li&gt;&#xA;&lt;li&gt;Cubase &amp;amp; Nuendo, Ableton Live&lt;/li&gt;&#xA;&lt;li&gt;Max/MSP, Pure Data&lt;/li&gt;&#xA;&lt;li&gt;Eurorack/Buchla/MOTM systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Development Tools&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python (Flask, Ollama, Pydub)&lt;/li&gt;&#xA;&lt;li&gt;Audio scripting and automation&lt;/li&gt;&#xA;&lt;li&gt;Node-based audio systems&lt;/li&gt;&#xA;&lt;li&gt;Jira, Docker, Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;Node-RED&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sound-designer-contract--hinge-health&#34;&gt;Sound Designer (Contract) | Hinge Health&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;San Francisco, CA | May 2022&amp;ndash;Present&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
