@@ -4,7 +4,7 @@ date: 2024-12-29
 draft: false
 ---
 
-## I make interactive audio experiences and composes music for physical and digital spaces.
+## I make interactive audio experiences and compose music for physical and digital spaces.
 
 ### Composer, Sound Designer, and tinkerer. Currently building [LUFS Audio](https://lufs.audio), with clients in the Bay Area.
 
