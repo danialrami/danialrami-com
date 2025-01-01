@@ -20,7 +20,7 @@
       <link>/resources/people/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>/resources/people/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ll link to other people&amp;rsquo;s websites here. I&amp;rsquo;m taking inspiration from webrings on this page.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ll link to other people&amp;rsquo;s websites here. I&amp;rsquo;m taking inspiration from &lt;a href=&#34;https://indieweb.org/webring&#34; target=&#34;_blank&#34;&gt;webrings&lt;/a&gt; on this page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
