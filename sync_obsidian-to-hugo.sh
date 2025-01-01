@@ -1,5 +1,5 @@
 #!/bin/bash
-# adapted from networkchuck!
+# adapted from networkchuck! https://blog.networkchuck.com/posts/my-insane-blog-pipeline/
 set -euo pipefail
 
 # Change to the script's directory
@@ -7,11 +7,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Set variables for Obsidian to Hugo copy
-sourcePath="/Users/danielramirez/Obsidian/ore/Notes/Life/hugo-content"
+sourcePath="/Users/danielramirez/Obsidian/ore/Notes/Project/hugo-content"
 destinationPath="/Users/danielramirez/danialrami/content"
 
 # Set GitHub Repo
-myrepo="danialrami-com"
+myrepo="https://github.com/danialrami/danialrami-com.git"
 
 # Check for required commands
 for cmd in git rsync python3 hugo; do
@@ -47,17 +47,17 @@ if [ ! -d "$destinationPath" ]; then
     exit 1
 fi
 
-rsync -av --delete "$sourcePath" "$destinationPath"
+rsync -av --delete "$sourcePath/" "$destinationPath/"
 
-# Step 3: Process Markdown files with Python script to handle image links
-echo "Processing image links in Markdown files..."
-if [ ! -f "images.py" ]; then
-    echo "Python script images.py not found."
+# Step 3: Process Markdown files with Python script to handle media links
+echo "Processing media links in Markdown files..."
+if [ ! -f "media.py" ]; then
+    echo "Python script media.py not found."
     exit 1
 fi
 
-if ! python3 images.py; then
-    echo "Failed to process image links."
+if ! python3 media.py; then
+    echo "Failed to process media links."
     exit 1
 fi
 
@@ -77,7 +77,7 @@ else
 fi
 
 # Step 6: Commit changes with a dynamic message
-commit_message="New Blog Post on $(date +'%Y-%m-%d %H:%M:%S')"
+commit_message="New post on $(date +'%Y-%m-%d %H:%M:%S')"
 if git diff --cached --quiet; then
     echo "No changes to commit."
 else

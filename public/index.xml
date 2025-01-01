@@ -6,14 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify Canvas Generator</title>
+      <link>/posts/spotify-canvas-generator/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/spotify-canvas-generator/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on some new music and wanted to have a way to create a &lt;a href=&#34;https://artists.spotify.com/canvas&#34; target=&#34;_blank&#34;&gt;Spotify Canvas&lt;/a&gt; from my album artwork. This script needed to do a &lt;a href=&#34;https://support.spotify.com/us/artists/article/canvas-guidelines/&#34; target=&#34;_blank&#34;&gt;few things&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Take album artwork as input (or any still image)&lt;/li&gt;&#xA;&lt;li&gt;Resize to 9:16 for phone screens&lt;/li&gt;&#xA;&lt;li&gt;Apply the effect(s)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;random digital artifacting&lt;/li&gt;&#xA;&lt;li&gt;glitches from the &lt;code&gt;glitch-this&lt;/code&gt; library&lt;/li&gt;&#xA;&lt;li&gt;vertical pixel smearing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;output a few different filetypes in a new directory:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;png&lt;/li&gt;&#xA;&lt;li&gt;gif&lt;/li&gt;&#xA;&lt;li&gt;final mp4 for spotify&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example with the album artwork:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>/about/about/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
       <guid>/about/about/</guid>
-      <description>&lt;h2 id=&#34;daniel-makes-interactive-audio-experiences-and-composes-music-for-physical-and-digital-spaces&#34;&gt;Daniel makes interactive audio experiences and composes music for physical and digital spaces.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;composer-sound-designer-and-tinkerer-currently-building-lufs-audiohttpslufsaudio-and-working-with-clients-in-the-bay-area&#34;&gt;Composer, Sound Designer, and tinkerer. Currently building &lt;a href=&#34;https://lufs.audio&#34; target=&#34;_blank&#34;&gt;LUFS Audio&lt;/a&gt;, and working with clients in the Bay Area.&lt;/h3&gt;&#xA;&lt;h4 id=&#34;when-not-at-my-desk-youll-find-me-trying-to-learn-something-new&#34;&gt;When not at my desk, you&amp;rsquo;ll find me trying to learn something new.&lt;/h4&gt;</description>
+      <description>&lt;h2 id=&#34;daniel-makes-interactive-audio-experiences-and-composes-music-for-physical-and-digital-spaces&#34;&gt;Daniel makes interactive audio experiences and composes music for physical and digital spaces.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;composer-sound-designer-and-tinkerer-currently-building-lufs-audiohttpslufsaudio-with-clients-in-the-bay-area&#34;&gt;Composer, Sound Designer, and tinkerer. Currently building &lt;a href=&#34;https://lufs.audio&#34; target=&#34;_blank&#34;&gt;LUFS Audio&lt;/a&gt;, with clients in the Bay Area.&lt;/h3&gt;&#xA;&lt;h4 id=&#34;when-not-working-youll-find-me-trying-to-learn-something-new&#34;&gt;When not working, you&amp;rsquo;ll find me trying to learn something new.&lt;/h4&gt;</description>
     </item>
     <item>
       <title>Resume</title>
