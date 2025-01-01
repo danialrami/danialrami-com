@@ -1,6 +1,6 @@
 ---
 title: Resume
-date: 2024-12-29
+date: 2024-12-31
 draft: false
 ---
 
@@ -16,19 +16,23 @@ Sound Designer specializing in interactive audio implementation, sound synthesis
 
 **Audio Software & Hardware**
 - Unreal Engine 5, Unity
-- Wwise, Pro Tools, Logic Pro X
-- Cubase & Nuendo, Ableton Live
+- Wwise
+- Logic Pro X, Pro Tools, Cubase/Nuendo, Ableton Live
 - Max/MSP, Pure Data
 - Eurorack/Buchla/MOTM systems
 
 **Development Tools**
-- Python (Flask, Ollama, Pydub)
-- Audio scripting and automation
+- Python: Audio scripting and automation
 - Node-based audio systems
+	- Max/MSP
+	- Pure Data
+	- Metasounds
 - Jira, Docker, Arch Linux
-- Node-RED
 
 ## Professional Experience
+
+### Sound Designer | LUFS Audio
+*July 2024--Present*
 
 ### Sound Designer (Contract) | Hinge Health
 *San Francisco, CA | May 2022--Present*
