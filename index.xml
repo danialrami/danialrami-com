@@ -6,8 +6,22 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music I&#39;m Listening To</title>
+      <link>/resources/music-recs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/resources/music-recs/</guid>
+      <description>&lt;p&gt;I try to listen to new music every day. It&amp;rsquo;s kind of insane but I keep a spreadsheet of albums I&amp;rsquo;m tryna listen to, and a script picks a new one for me every morning. I&amp;rsquo;m working on a spreadsheet for the new year (switching to google sheets); I&amp;rsquo;ll link it here when it&amp;rsquo;s ready (idk when).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>/resources/people/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/resources/people/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ll link to other people&amp;rsquo;s websites here. I&amp;rsquo;m taking inspiration from webrings on this page.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Spotify Canvas Generator</title>
       <link>/posts/spotify-canvas-generator/</link>
@@ -28,13 +42,6 @@
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
       <guid>/resume/resume/</guid>
       <description>&lt;h1 id=&#34;daniel-ramirez&#34;&gt;Daniel Ramirez&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sound-designer&#34;&gt;Sound Designer&lt;/h2&gt;&#xA;&lt;p&gt;Sound Designer specializing in interactive audio implementation, sound synthesis, and audio pipeline development for mobile applications and live performances. Experienced in working with industry-leading professionals and managing complex audio workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;mailto:daniel@danialrami.com&#34;&gt;daniel@danialrami.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-proficiency&#34;&gt;Technical Proficiency&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Audio Software &amp;amp; Hardware&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unreal Engine 5, Unity&lt;/li&gt;&#xA;&lt;li&gt;Wwise, Pro Tools, Logic Pro X&lt;/li&gt;&#xA;&lt;li&gt;Cubase &amp;amp; Nuendo, Ableton Live&lt;/li&gt;&#xA;&lt;li&gt;Max/MSP, Pure Data&lt;/li&gt;&#xA;&lt;li&gt;Eurorack/Buchla/MOTM systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Development Tools&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python (Flask, Ollama, Pydub)&lt;/li&gt;&#xA;&lt;li&gt;Audio scripting and automation&lt;/li&gt;&#xA;&lt;li&gt;Node-based audio systems&lt;/li&gt;&#xA;&lt;li&gt;Jira, Docker, Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;Node-RED&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sound-designer-contract--hinge-health&#34;&gt;Sound Designer (Contract) | Hinge Health&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;San Francisco, CA | May 2022&amp;ndash;Present&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Music</title>
-      <link>/resources/music/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/resources/music/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
