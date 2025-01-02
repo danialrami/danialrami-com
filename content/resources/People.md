@@ -11,3 +11,8 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 
 ## Indieweb Stuff
 - [Maggie Appleton](https://maggieappleton.com/)
+
+## Tech
+
+- Jeff Geerling
+- Network Chuck
