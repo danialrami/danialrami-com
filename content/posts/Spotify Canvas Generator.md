@@ -10,7 +10,7 @@ I've been working on some new music and wanted to have a way to create a [Spotif
 - Resize to 9:16 for phone screens
 - Apply the effect(s)
 	- random digital artifacting
-	- glitches from the `glitch-this` library
+	- glitches from the [glitch-this](https://pypi.org/project/glitch-this/) library
 	- vertical pixel smearing
 - output a few different filetypes in a new directory: 
 	- png 
