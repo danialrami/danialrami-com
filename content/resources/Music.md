@@ -1,5 +1,5 @@
 ---
-title: Music I'm Listening To
+title: Music
 date: 2025-01-01
 draft: false
 ---
