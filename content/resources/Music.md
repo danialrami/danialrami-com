@@ -14,7 +14,7 @@ The logic handles the whole lift, so day to day I just add music to my library i
 
 ## The Setup
 
-{{add the setup to-do}}
+{{TODO: add the setup}}
 
 I try not to rate the music out of 5 stars or anything like that, cause for me the point is just to listen. While I'm listening in Apple Music, I'll mark songs I like as Favorites, and if more songs end up on my Favorites off the album than not, then I mark the whole album as a Favorite and put a little "🌞" in Google Sheets. 
 
