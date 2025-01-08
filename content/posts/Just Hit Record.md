@@ -21,7 +21,7 @@ Everything gets saved with clean timestamps, making it easy to find recordings l
 
 ![Image Description](/images/Screenshot%202025-01-07%20at%208.54.45%20PM.png)
 
-The interface provides real-time visual feedback through spectroscopes and level meters, so you can keep an eye on your levels while staying focused on playing.
+The interface provides real-time visual feedback through scopes for audio and a kslider for midi, so you can keep an eye on your input while staying focused on playing.
 
 ## Why I Built It
 
