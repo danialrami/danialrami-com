@@ -7,6 +7,7 @@ draft: false
 I've wanted a tool like this for years, because I've always found myself sitting at my piano and wishing that with one button I could very easily record a jam. Something way more pared down than a daw, with less setup time and complexity, and that won't tempt me to start piling on effects.
 
 ![Image Description](/images/Screenshot%202025-01-07%20at%208.51.04%20PM.png)
+*I will remove the branding when I figure out what to do with that corner of the UI 🤝*
 
 ## Field Recorder on Steroids
 
