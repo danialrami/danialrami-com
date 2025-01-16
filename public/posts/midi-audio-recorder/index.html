@@ -49,14 +49,18 @@
 
 
 
+  
+  
+  
+
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name"></title>
-<meta property="og:title" content=ZgotmplZ />
-<meta name="twitter:title" content=ZgotmplZ />
-<meta itemprop="name" content=ZgotmplZ />
-<meta name="application-name" content=ZgotmplZ />
+<title itemprop="name">Daniel Ramirez - MIDI &amp; Audio Recorder</title>
+<meta property="og:title" content=Daniel&#32;Ramirez&#32;-&#32;MIDI&#32;&amp;&#32;Audio&#32;Recorder />
+<meta name="twitter:title" content=Daniel&#32;Ramirez&#32;-&#32;MIDI&#32;&amp;&#32;Audio&#32;Recorder />
+<meta itemprop="name" content=Daniel&#32;Ramirez&#32;-&#32;MIDI&#32;&amp;&#32;Audio&#32;Recorder />
+<meta name="application-name" content=Daniel&#32;Ramirez&#32;-&#32;MIDI&#32;&amp;&#32;Audio&#32;Recorder />
 <meta property="og:site_name" content="" />
 
 
@@ -66,18 +70,17 @@
 <meta name="twitter:description" content="" />
 
 
-<base href="/series/" />
-<link rel="canonical" href="/series/" itemprop="url" />
-<meta name="url" content="/series/" />
-<meta name="twitter:url" content="/series/" />
-<meta property="og:url" content="/series/" />
+<base href="/posts/midi-audio-recorder/" />
+<link rel="canonical" href="/posts/midi-audio-recorder/" itemprop="url" />
+<meta name="url" content="/posts/midi-audio-recorder/" />
+<meta name="twitter:url" content="/posts/midi-audio-recorder/" />
+<meta property="og:url" content="/posts/midi-audio-recorder/" />
 
 
-<meta property="og:updated_time" content="0001-01-01T00:00:00Z" />
+<meta property="og:updated_time" content="2025-01-07T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='/sitemap.xml' />
-<link href="/series/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -414,13 +417,93 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Series</h1>
-<ul class="entries">
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="/posts/midi-audio-recorder/">MIDI &amp; Audio Recorder</a>
+  </h1>
 
+  <div class="headline">
+    <div>
+      
+      
+      <time datetime=" 2025-01-07T00:00:00Z" class="post-date">
+        January 7, 2025
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>2 mins read</span>
+      </span>
+    </div>
+
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+  <p>I&rsquo;ve wanted a tool like this for years, because I&rsquo;ve always found myself sitting at my piano and wishing that with one button I could very easily record a jam. Something way more pared down than a daw, with less setup time and complexity, and that won&rsquo;t tempt me to start piling on effects.</p>
+<p><img src="/images/Screenshot%202025-01-07%20at%208.51.04%20PM.png" alt="Image Description">
+<em>I will remove the branding when I figure out what to do with that corner of the UI 🤝</em></p>
+<h2 id="field-recorder-on-steroids">Field Recorder on Steroids</h2>
+<p>Taking inspiration from the simplicity of tape machines and field recorders, I wanted to create a modern hybrid that could capture both audio and MIDI simultaneously. The goal was to preserve that spontaneous &ldquo;just hit record&rdquo; feeling while adding the flexibility of digital recording.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>The recorder captures two stereo pairs of audio (a stereo microphone and piano, in this case) along with MIDI data from my keyboard.</p>
+<p>Everything gets saved with clean timestamps, making it easy to find recordings later.</p>
+<p><img src="/images/Screenshot%202025-01-07%20at%208.54.45%20PM.png" alt="Image Description"></p>
+<p>The interface provides real-time visual feedback through scopes for audio and a kslider for midi, so you can keep an eye on your input while staying focused on playing.</p>
+<h2 id="why-i-built-it">Why I Built It</h2>
+<p>The use case is for anyone who wants to capture ideas quickly without the overhead of setting up a full recording session, mics, or even a daw template. Whether practicing, composing, or just jamming, sometimes you need something that&rsquo;s meant to work with what you have set up <em>right now</em>.</p>
+<p>Speaking of &ndash; if you find it useful but you think that even opening it is too slow for you (first off, wow. but same), you can map it to a keyboard shortcut, or use a tool like <a href="https://kando.menu/" target="_blank">Kando</a> to open it directly from a pie menu. Now you&rsquo;re never too far away!</p>
+<p><img src="/images/Screenshot%202025-01-07%20at%209.04.00%20PM.png" alt="Image Description"></p>
+<h2 id="v0">v0+</h2>
+<p>I&rsquo;ll be working on augmenting this tool further until it can handle arbitrary audio and MIDI tracks. Currently it&rsquo;s built for my personal workflow, but in a future version the setup will be more customizable from Presentation. Ultimately, the goal is to maintain that one-button simplicity while adding more flexibility for different recording scenarios.</p>
+<p>The beauty of this approach is that it combines the immediacy of old-school recording with the advantages of modern digital formats. Sometimes the best ideas come when you&rsquo;re just playing around, which in the end is how most of us got started here. Check out the patch <a href="https://github.com/danialrami/midi-audio-recorder" target="_blank">here</a>, tweak your save folder, adjust your inputs and go for it!</p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="/posts/spotify-canvas-generator/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Spotify Canvas Generator</a>
+        
+	    
+            <div class="next-post">
+                <a href="/posts/just-hit-record/?ref=footer"><span style="font-weight:bold;">Next »</span><br>MIDI &amp; Audio Recorder</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#field-recorder-on-steroids">Field Recorder on Steroids</a></li>
+    <li><a href="#what-it-does">What It Does</a></li>
+    <li><a href="#why-i-built-it">Why I Built It</a></li>
+    <li><a href="#v0">v0+</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>
