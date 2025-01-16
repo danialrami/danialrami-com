@@ -6,8 +6,7 @@ draft: false
 
 I've wanted a tool like this for years, because I've always found myself sitting at my piano and wishing that with one button I could very easily record a jam. Something way more pared down than a daw, with less setup time and complexity, and that won't tempt me to start piling on effects.
 
-![Image Description](/images/Screenshot%202025-01-07%20at%208.51.04%20PM.png)
-*I will remove the branding when I figure out what to do with that corner of the UI 🤝*
+![Image Description](/images/Screenshot%202025-01-16%20at%201.08.23%20PM.png)
 
 ## Field Recorder on Steroids
 
@@ -19,7 +18,7 @@ The recorder captures two stereo pairs of audio (a stereo microphone and piano, 
 
 Everything gets saved with clean timestamps, making it easy to find recordings later.
 
-![Image Description](/images/Screenshot%202025-01-07%20at%208.54.45%20PM.png)
+![Image Description](/images/Screenshot%202025-01-16%20at%201.10.01%20PM.png)
 
 The interface provides real-time visual feedback through scopes for audio and a kslider for midi, so you can keep an eye on your input while staying focused on playing.
 
@@ -29,7 +28,7 @@ The use case is for anyone who wants to capture ideas quickly without the overhe
 
 Speaking of -- if you find it useful but you think that even opening it is too slow for you (first off, wow. but same), you can map it to a keyboard shortcut, or use a tool like [Kando](https://kando.menu/) to open it directly from a pie menu. Now you're never too far away!
 
-![Image Description](/images/Screenshot%202025-01-07%20at%209.04.00%20PM.png)
+![Image Description](/images/Screenshot%202025-01-16%20at%201.10.35%20PM.png)
 
 ## v0+
 
