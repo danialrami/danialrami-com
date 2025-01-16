@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://danialrami.com/"
 languageCode = "en-us"
 theme = "poison"
 # ignoreLogs = ['warning-goldmark-raw-html']
