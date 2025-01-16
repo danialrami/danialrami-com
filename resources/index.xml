@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on </title>
-    <link>/resources/</link>
+    <link>https://danialrami.com/resources/</link>
     <description>Recent content in Resources on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://danialrami.com/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>/resources/books/</link>
+      <link>https://danialrami.com/resources/books/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/resources/books/</guid>
+      <guid>https://danialrami.com/resources/books/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ll link to some books here. The good stuff.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Music</title>
-      <link>/resources/music/</link>
+      <link>https://danialrami.com/resources/music/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/resources/music/</guid>
+      <guid>https://danialrami.com/resources/music/</guid>
       <description>&lt;p&gt;I try to listen to new music every day, and I keep a spreadsheet of all the albums I wanna listen to &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1p8zTsGuQVV81tvuZswIHq-pIXCyZn9ixhg-2HWD9X10/edit?gid=0#gid=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It&amp;rsquo;s managed by the google sheets and apple music apis, python, and synced to my obsidian daily note.&lt;/p&gt;&#xA;&lt;h2 id=&#34;preview&#34;&gt;Preview&lt;/h2&gt;&#xA;&lt;iframe src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vR2ue613iOVDnHzZytR6R65ojNBF_sugk5jeGK5aqUGVdJgCEPYrs9Jpb7sh1O_GhlSlMie8t06hf_a/pubhtml?gid=0&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;The logic handles the whole lift, so day to day I just add music to my library in Apple Music, see what album comes up in Obsidian, and mark it as done after I listen. I listen to way more music this way! If you want to do something similar, here&amp;rsquo;s exactly how I do it:&lt;/p&gt;</description>
     </item>
     <item>
       <title>People</title>
-      <link>/resources/people/</link>
+      <link>https://danialrami.com/resources/people/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/resources/people/</guid>
+      <guid>https://danialrami.com/resources/people/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ll link to other people&amp;rsquo;s websites here. I&amp;rsquo;m taking inspiration from &lt;a href=&#34;https://indieweb.org/webring&#34; target=&#34;_blank&#34;&gt;webrings&lt;/a&gt; on this page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;music&#34;&gt;Music&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.musicthing.co.uk/&#34; target=&#34;_blank&#34;&gt;Music Thing Modular&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;indieweb-stuff&#34;&gt;Indieweb Stuff&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://maggieappleton.com/&#34; target=&#34;_blank&#34;&gt;Maggie Appleton&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tech&#34;&gt;Tech&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jeff Geerling&lt;/li&gt;&#xA;&lt;li&gt;Network Chuck&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
