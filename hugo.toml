@@ -9,8 +9,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-    brand = "Daniel Ramirez"                      # name of your site - appears in the sidebar
-    # remote_brand_image = '/images/DANIALRAMI-COLORS-02.png' # path to a remote file
+    brand = ""                      # name of your site - appears in the sidebar
+    remote_brand_image = '/images/DANIALRAMI-COLORS-02.png' # path to a remote file
     brand_image = "/images/cloud_profile.png"    # path to the image shown in the sidebar
     description = "Composer | Sound Designer" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
