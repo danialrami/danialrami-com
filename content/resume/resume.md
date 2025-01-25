@@ -34,6 +34,8 @@ Sound Designer specializing in interactive audio implementation, sound synthesis
 ### Sound Designer | LUFS Audio
 *July 2024--Present*
 
+- Clients include Hinge Health and xAI
+
 ### Sound Designer (Contract) | Hinge Health
 *San Francisco, CA | May 2022--Present*
 
