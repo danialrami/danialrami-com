@@ -15,11 +15,11 @@ Sound Designer specializing in interactive audio implementation, sound synthesis
 ## Technical Proficiency
 
 **Audio Software & Hardware**
-- Unreal Engine 5, Unity
 - Wwise
 - Logic Pro X, Pro Tools, Cubase/Nuendo, Ableton Live
 - Max/MSP, Pure Data
 - Eurorack/Buchla/MOTM systems
+- Unreal Engine 5, Unity
 
 **Development Tools**
 - Python: Audio scripting and automation
@@ -37,7 +37,7 @@ Sound Designer specializing in interactive audio implementation, sound synthesis
 - Clients include Hinge Health and xAI
 
 ### Sound Designer (Contract) | Hinge Health
-*San Francisco, CA | May 2022--Present*
+*San Francisco, CA | May 2022--July 2024*
 
 - Designed interaction sounds for mobile apps serving 70k+ daily users
 - Built scalable Wwise workflows and audio pipelines

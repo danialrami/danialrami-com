@@ -29,8 +29,4 @@ Here's an example with the album artwork:
 
 Boom.
 
-Feel free to check out the code and the music! Repo linked [here](https://github.com/danialrami/canvas-generator_spotify). The python is open-sourced, so feel free to use, edit, copy, or anything else. Try some different effects! I'll keep working on it too, probably. I hope this helps someone 🤝
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6tcl0S3oK680ovj59GurKV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-more soon 👏
+Feel free to check out the code, repo linked [here](https://github.com/danialrami/canvas-generator_spotify). The python is open-source, so feel free to use, edit, copy, or anything else. Try some different effects! I'll keep working on it too, probably. I hope this helps someone 🤝 more soon 👏
