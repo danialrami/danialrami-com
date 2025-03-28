@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/resume/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/resume/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/resume/</guid>
+      <guid>http://localhost:1313/resume/</guid>
       <description>&lt;h1 id=&#34;daniel-ramirez&#34;&gt;Daniel Ramirez&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sound-designer&#34;&gt;Sound Designer&lt;/h2&gt;&#xA;&lt;p&gt;Sound Designer specializing in interactive audio implementation, sound synthesis, and audio pipeline development for mobile applications and live performances. Experienced in working with industry-leading professionals and managing complex audio workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;mailto:daniel@danialrami.com&#34;&gt;daniel@danialrami.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-proficiency&#34;&gt;Technical Proficiency&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Audio Software &amp;amp; Hardware&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wwise&lt;/li&gt;&#xA;&lt;li&gt;Logic Pro X, Pro Tools, Cubase/Nuendo, Ableton Live&lt;/li&gt;&#xA;&lt;li&gt;Max/MSP, Pure Data&lt;/li&gt;&#xA;&lt;li&gt;Eurorack/Buchla/MOTM systems&lt;/li&gt;&#xA;&lt;li&gt;Unreal Engine 5, Unity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Development Tools&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python: Audio scripting and automation&lt;/li&gt;&#xA;&lt;li&gt;Node-based audio systems&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Max/MSP&lt;/li&gt;&#xA;&lt;li&gt;Pure Data&lt;/li&gt;&#xA;&lt;li&gt;Metasounds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Jira, Docker, Arch Linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sound-designer--lufs-audio&#34;&gt;Sound Designer | LUFS Audio&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;July 2024&amp;ndash;Present&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
