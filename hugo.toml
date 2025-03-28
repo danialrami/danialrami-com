@@ -26,7 +26,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Resume", URL = "https:/resume.danialrami.com/", HasChildren = false},
+        {Name = "Resume", URL = "https://resume.danialrami.com/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
         {Name = "Resources", URL = "/resources/", HasChildren = true, Limit = 5}
     ]
@@ -47,7 +47,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # twitter_url = "https://twitter.com"
     # x_url = "https://x.com"
     # xmpp_url = "https://xmpp.org"
-    youtube_url = "https://www.youtube.com/@danielalrami"
+    # youtube_url = "https://www.youtube.com/@danielalrami"
     # signal_url = "https://signal.org"
     bluesky_url = "https://bsky.app/profile/danirami.bsky.social"
 
