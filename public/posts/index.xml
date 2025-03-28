@@ -10,13 +10,6 @@
     <atom:link href="https://danialrami.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MIDI &amp; Audio Recorder</title>
-      <link>https://danialrami.com/posts/just-hit-record/</link>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danialrami.com/posts/just-hit-record/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve wanted a tool like this for years, because I&amp;rsquo;ve always found myself sitting at my piano and wishing that with one button I could very easily record a jam. Something way more pared down than a daw, with less setup time and complexity, and that won&amp;rsquo;t tempt me to start piling on effects.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://danialrami.com/images/Screenshot%202025-01-07%20at%208.51.04%20PM.png&#34; alt=&#34;Image Description&#34;&gt;&#xA;&lt;em&gt;I will remove the branding when I figure out what to do with that corner of the UI 🤝&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>MIDI &amp; Audio Recorder</title>
       <link>https://danialrami.com/posts/midi-audio-recorder/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://danialrami.com/posts/midi-audio-recorder/</guid>
