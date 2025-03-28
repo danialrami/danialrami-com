@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting to External Site</title>
+    <meta http-equiv="refresh" content="0; URL={{ .Params.external }}">
+    <link rel="canonical" href="{{ .Params.external }}">
+</head>
+<body>
+    <p>Redirecting to <a href="{{ .Params.external }}">{{ .Params.external }}</a>...</p>
+    <script>
+        window.location.href = "{{ .Params.external }}";
+    </script>
+</body>
+</html>
