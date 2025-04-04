@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danialrami.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extract Wisdom</title>
+      <link>https://danialrami.com/posts/extract-wisdom/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://danialrami.com/posts/extract-wisdom/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m back from GDC 2025, and was buzzing with ideas, contacts, and insights from the Audio Summit sessions. While in San Francisco, I recorded numerous personal audio notes after talks like Wilbert Roget&amp;rsquo;s talk on the score Helldivers 2 and Cody Matthew Johnson&amp;rsquo;s session on diegetic music in Star Wars Outlaws.&lt;/p&gt;&#xA;&lt;p&gt;But at least for me, when it comes to audio recordings - they often sit untouched lol. Because reviewing them takes alot of time! So I tried to figure this out with a simple script.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MIDI &amp; Audio Recorder</title>
       <link>https://danialrami.com/posts/midi-audio-recorder/</link>
