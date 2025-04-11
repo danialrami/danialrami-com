@@ -3,7 +3,7 @@ title: Lua in REAPER
 date: 2025-04-11
 draft: false
 ---
-I first got introduced to Lua a few years ago while messing around with a monome norns. At the time, I was just downloading Lua scripts that others had made, but I found myself really interested in reading through the code and inspired by how accessible the norns was as a platform for creating new instruments and effects. The simplicity of the language combined with its power to transform hardware into entirely new sonic tools fascinated me, even though I wasn't writing my own scripts yet.
+I first got introduced to Lua a few years ago while messing around with a [monome norns](https://llllllll.co/c/library/18). At the time, I was just downloading Lua scripts that others had made, but I found myself really interested in reading through the code and inspired by how accessible the norns was as a platform for creating new instruments and effects. The simplicity of the language combined with its power to transform hardware into entirely new sonic tools fascinated me, even though I wasn't writing my own scripts yet.
 
 For years, Logic has been my go-to for general sound design work, but when it comes to certain media, like gaming, REAPER has some of the best functionality and extensibility. Scripting in REAPER with Lua has transformed the way I think about the day to day process when working with audio.
 
@@ -75,7 +75,7 @@ Currently working on scripts that:
 
 ## Assists from continue.dev
 
-Another approach that has significantly accelerated my Lua development is using AI-assisted coding tools. I'll open my .lua files (or .scd files for SuperCollider, or even .maxpatch files) in VSCodium with continue.dev connected to my openwebui or ollama instance. This setup acts as a real-time coding assistant that checks my code for correctness and provides suggestions for refining existing features or adding new ones I hadn't considered.
+Another approach that has significantly accelerated my Lua development is using AI-assisted coding tools. I'll open my .lua files (or .scd files for SuperCollider, or even .maxpatch files) in VSCodium with [continue.dev](https://www.continue.dev/) connected to my openwebui or ollama instance. This setup acts as a real-time coding assistant that checks my code for correctness and provides suggestions for refining existing features or adding new ones I hadn't considered.
 
 This approach has been particularly helpful when starting a new script. Like "draft the high level organization for a krell patch in supercollider". It's awesome to just be able to focus on creative implementation rather than boilerplate setup.
 
