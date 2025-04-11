@@ -6,14 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danialrami.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lua in REAPER</title>
+      <link>https://danialrami.com/posts/embracing-lua-as-an-audio-tool/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://danialrami.com/posts/embracing-lua-as-an-audio-tool/</guid>
+      <description>&lt;p&gt;I first got introduced to Lua a few years ago while messing around with a monome norns. At the time, I was just downloading Lua scripts that others had made, but I found myself really interested in reading through the code and inspired by how accessible the norns was as a platform for creating new instruments and effects. The simplicity of the language combined with its power to transform hardware into entirely new sonic tools fascinated me, even though I wasn&amp;rsquo;t writing my own scripts yet.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Extract Wisdom</title>
       <link>https://danialrami.com/posts/extract-wisdom/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://danialrami.com/posts/extract-wisdom/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m back from GDC 2025, and was buzzing with ideas, contacts, and insights from the Audio Summit sessions. While in San Francisco, I recorded numerous personal audio notes after talks like Wilbert Roget&amp;rsquo;s talk on the score Helldivers 2 and Cody Matthew Johnson&amp;rsquo;s session on diegetic music in Star Wars Outlaws.&lt;/p&gt;&#xA;&lt;p&gt;But at least for me, when it comes to audio recordings - they often sit untouched lol. Because reviewing them takes alot of time! So I tried to figure this out with a simple script.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I came back from GDC 2025 full of ideas and insights from the Audio Summit sessions. While in San Francisco, I recorded numerous personal audio notes after talks like Wilbert Roget&amp;rsquo;s talk on the score Helldivers 2 and Cody Matthew Johnson&amp;rsquo;s session on diegetic music in Star Wars Outlaws.&lt;/p&gt;&#xA;&lt;p&gt;But at least for me, when it comes to audio recordings - they often sit untouched lol. Because reviewing them takes alot of time! So I tried to figure this out with a simple script.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MIDI &amp; Audio Recorder</title>
