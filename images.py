@@ -6,7 +6,7 @@ import shutil
 
 # Paths remain the same
 posts_dir = "/Users/danielramirez/danialrami/content"
-attachments_dir = "/Users/danielramirez/Obsidian/ore/attachments"
+attachments_dir = "/Users/danielramirez/Nextcloud/ore/attachments"
 static_images_dir = "/Users/danielramirez/danialrami/static/images"
 
 # Verify and create directories if needed
