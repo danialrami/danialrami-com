@@ -4,7 +4,7 @@ import shutil
 
 # Paths for different media types
 posts_dir = "/Users/danielramirez/danialrami/content"
-attachments_dir = "/Users/danielramirez/Obsidian/ore/attachments"
+attachments_dir = "/Users/danielramirez/Nextcloud/ore/attachments"
 static_images_dir = "/Users/danielramirez/danialrami/static/images"
 static_videos_dir = "/Users/danielramirez/danialrami/static/videos"
 static_audio_dir = "/Users/danielramirez/danialrami/static/audio"
