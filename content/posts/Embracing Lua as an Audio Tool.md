@@ -5,6 +5,8 @@ draft: false
 ---
 I first got introduced to Lua a few years ago while messing around with a [monome norns](https://llllllll.co/c/library/18). At the time, I was just downloading Lua scripts that others had made, but I found myself really interested in reading through the code and inspired by how accessible the norns was as a platform for creating new instruments and effects. The simplicity of the language combined with its power to transform hardware into entirely new sonic tools fascinated me, even though I wasn't writing my own scripts yet.
 
+![Image Description](/images/IMG_3563.jpeg)
+
 For years, Logic has been my go-to for general sound design work, but when it comes to certain media, like gaming, REAPER has some of the best functionality and extensibility. Scripting in REAPER with Lua has transformed the way I think about the day to day process when working with audio.
 
 ## Multi-DAW
