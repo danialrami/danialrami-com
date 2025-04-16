@@ -71,7 +71,7 @@ And it exports a fully compiled reel with text overlays and transitions.
 
 ## Who cares
 
-This is a workflow that feels like it's helped solve a persistent problem for me. Sound design is sorta ephemeral -- in a way that visual art isn't. Documenting the process helps translate the work for other collaborators and non-designers by showcasing not just the final sound, but the context and intention behind it. When others can see how sound design transforms an experience, they better understand the value we bring to projects. It bridges the gap between "sounds good" and "here's exactly how sound transformed this experience."
+This is a workflow that feels like it's helped solve a persistent problem for me. Sound design is sorta ephemeral in a way that visual art isn't. Documenting the process helps translate the work for other collaborators and non-designers by showcasing not just the final sound, but the context and intention behind it. When others can see how sound design transforms an experience, they better understand the value we bring to projects. It bridges the gap between "sounds good" and "here's exactly how sound transformed this experience."
 
 What I've found is that by removing the friction, I'm way more consistent about building my portfolio over time rather than scrambling to put something together when an opportunity comes up.
 
