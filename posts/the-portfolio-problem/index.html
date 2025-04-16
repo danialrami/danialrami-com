@@ -541,11 +541,11 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <p>I&rsquo;ve been needing a system that&rsquo;s low-friction enough that I&rsquo;ll actually use it, but structured enough that it would automatically organize everything for me.</p>
 <p>When I&rsquo;m in the middle of a workflow, the last thing I want to do is stop, switch contexts, set up a screen recorder, figure out where to save the file, and then try to remember to organize it all later. By the time I think about my portfolio again, the thing I was up to three months ago is buried in project files or worse - completely gone because the project got turned over.</p>
 <h2 id="v0">v0</h2>
-<p>I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It&rsquo;s basically just three Python scripts:</p>
+<p>I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It&rsquo;s basically just three scripts:</p>
 <ul>
-<li>A capture tool that hooks into OBS</li>
-<li>A metadata generator that organizes clips by type and year</li>
+<li>A capture tool that hooks into OBS + a metadata generator that organizes clips by type and year</li>
 <li>A reel generator that automatically compiles everything with proper titles</li>
+<li>A bash script to run the capture tool</li>
 </ul>
 <p>The idea is dead simple: when I do something worth documenting, I trigger the capture script (I use <a href="https://kando.menu/" target="_blank">Kando</a>, but a hotkey would work too), answer three quick questions, and boom - it records what I&rsquo;m doing, stops when I tell it to, and files it away with proper metadata. Later, when I need to show someone my work, I run one command and get a professional-looking reel that&rsquo;s ready to share.</p>
 <h2 id="how-it-works">How It Works</h2>
