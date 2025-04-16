@@ -16,11 +16,11 @@ I've been needing a system that's low-friction enough that I'll actually use it,
 When I'm in the middle of a workflow, the last thing I want to do is stop, switch contexts, set up a screen recorder, figure out where to save the file, and then try to remember to organize it all later. By the time I think about my portfolio again, the thing I was up to three months ago is buried in project files or worse - completely gone because the project got turned over.
 ## v0
 
-I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It's basically just three Python scripts:
+I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It's basically just three scripts:
 
-- A capture tool that hooks into OBS
-- A metadata generator that organizes clips by type and year
+- A capture tool that hooks into OBS + a metadata generator that organizes clips by type and year
 - A reel generator that automatically compiles everything with proper titles
+- A bash script to run the capture tool
 
 The idea is dead simple: when I do something worth documenting, I trigger the capture script (I use [Kando](https://kando.menu/), but a hotkey would work too), answer three quick questions, and boom - it records what I'm doing, stops when I tell it to, and files it away with proper metadata. Later, when I need to show someone my work, I run one command and get a professional-looking reel that's ready to share.
 
