@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danialrami.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Portfolio Problem</title>
+      <link>https://danialrami.com/posts/the-portfolio-problem/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://danialrami.com/posts/the-portfolio-problem/</guid>
+      <description>&lt;h1 id=&#34;the-portfolio-problem&#34;&gt;The Portfolio Problem&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been pretty inconsistent with portfolio documentation. I&amp;rsquo;ll either:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Forget to capture cool moments entirely&lt;/li&gt;&#xA;&lt;li&gt;Hastily record something but never find the file again&lt;/li&gt;&#xA;&lt;li&gt;End up with a scattered collection of clips with no context&lt;/li&gt;&#xA;&lt;li&gt;Put off making an actual reel until a job opportunity forced my hand&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been needing a system that&amp;rsquo;s low-friction enough that I&amp;rsquo;ll actually use it, but structured enough that it would automatically organize everything for me.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lua in REAPER</title>
       <link>https://danialrami.com/posts/embracing-lua-as-an-audio-tool/</link>

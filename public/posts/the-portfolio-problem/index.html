@@ -56,11 +56,11 @@
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name"> - Extract Wisdom</title>
-<meta property="og:title" content=&#32;-&#32;Extract&#32;Wisdom />
-<meta name="twitter:title" content=&#32;-&#32;Extract&#32;Wisdom />
-<meta itemprop="name" content=&#32;-&#32;Extract&#32;Wisdom />
-<meta name="application-name" content=&#32;-&#32;Extract&#32;Wisdom />
+<title itemprop="name"> - The Portfolio Problem</title>
+<meta property="og:title" content=&#32;-&#32;The&#32;Portfolio&#32;Problem />
+<meta name="twitter:title" content=&#32;-&#32;The&#32;Portfolio&#32;Problem />
+<meta itemprop="name" content=&#32;-&#32;The&#32;Portfolio&#32;Problem />
+<meta name="application-name" content=&#32;-&#32;The&#32;Portfolio&#32;Problem />
 <meta property="og:site_name" content="" />
 
 
@@ -70,14 +70,14 @@
 <meta name="twitter:description" content="" />
 
 
-<base href="https://danialrami.com/posts/extract-wisdom/" />
-<link rel="canonical" href="https://danialrami.com/posts/extract-wisdom/" itemprop="url" />
-<meta name="url" content="https://danialrami.com/posts/extract-wisdom/" />
-<meta name="twitter:url" content="https://danialrami.com/posts/extract-wisdom/" />
-<meta property="og:url" content="https://danialrami.com/posts/extract-wisdom/" />
+<base href="https://danialrami.com/posts/the-portfolio-problem/" />
+<link rel="canonical" href="https://danialrami.com/posts/the-portfolio-problem/" itemprop="url" />
+<meta name="url" content="https://danialrami.com/posts/the-portfolio-problem/" />
+<meta name="twitter:url" content="https://danialrami.com/posts/the-portfolio-problem/" />
+<meta property="og:url" content="https://danialrami.com/posts/the-portfolio-problem/" />
 
 
-<meta property="og:updated_time" content="2025-04-04T00:00:00Z" />
+<meta property="og:updated_time" content="2025-04-16T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://danialrami.com/sitemap.xml' />
@@ -501,15 +501,15 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="post">
   <div class="info">
   <h1 class="post-title">
-    <a href="https://danialrami.com/posts/extract-wisdom/">Extract Wisdom</a>
+    <a href="https://danialrami.com/posts/the-portfolio-problem/">The Portfolio Problem</a>
   </h1>
 
   <div class="headline">
     <div>
       
       
-      <time datetime=" 2025-04-04T00:00:00Z" class="post-date">
-        April 4, 2025
+      <time datetime=" 2025-04-16T00:00:00Z" class="post-date">
+        April 16, 2025
       </time>
       
       <span> - </span>
@@ -518,7 +518,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
           
         
 
-        <span>6 mins read</span>
+        <span>3 mins read</span>
       </span>
     </div>
 
@@ -531,122 +531,71 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   
 </div>
 
-  <p>I came back from GDC 2025 full of ideas and insights from the Audio Summit sessions. While in San Francisco, I recorded numerous personal audio notes after talks like Wilbert Roget&rsquo;s talk on the score Helldivers 2 and Cody Matthew Johnson&rsquo;s session on diegetic music in Star Wars Outlaws.</p>
-<p>But at least for me, when it comes to audio recordings - they often sit untouched lol. Because reviewing them takes alot of time! So I tried to figure this out with a simple script.</p>
-<h2 id="the-tools-and-a-chance-to-soapbox-about-open-source-tech">The Tools, and a chance to soapbox about open source tech</h2>
-<p>Open source has been a big inspiration for me ever since I graduated university, and I wouldn&rsquo;t know a quarter of the things I know now if amazing open source projects didn&rsquo;t exist. A well maintained open source project with a community behind it is like a public good imo, a problem solved. I stuck two open source projects together with Python and ended up with a tool that can take any audio file as input, transcribe it and sum it up for you with whatever model you like (open source or not).</p>
-<p>OpenAI has a solid tool called Whisper, known for its impressive transcription capabilities - it handles the voice recordings with pretty great accuracy, even in noisy conference environments. It&rsquo;ll take your audio file and turn it into something searchable.</p>
-<p>Daniel Miessler&rsquo;s Fabric framework does most of the heavy lifting here, offering community written patterns for &ldquo;extracting wisdom&rdquo; from content &ndash; i.e. summarization, but asking for a lot more specifics. <a href="https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md" target="_blank">Check out the actual prompt</a> that&rsquo;s running in this script below, which gets fed to whichever model you have set up with fabric. I&rsquo;m currently switching off between Gemma and Claude, depending on how important this info is to me.</p>
-<blockquote>
-<h1 id="identity-and-purpose">IDENTITY and PURPOSE</h1>
-<p>You extract surprising, insightful, and interesting information from text content. You are interested in insights related to the purpose and meaning of life, human flourishing, the role of technology in the future of humanity, artificial intelligence and its affect on humans, memes, learning, reading, books, continuous improvement, and similar topics.</p>
-<p>Take a step back and think step-by-step about how to achieve the best possible results by following the steps below.</p>
-<h1 id="steps">STEPS</h1>
-<ul>
-<li>
-<p>Extract a summary of the content in 25 words, including who is presenting and the content being discussed into a section called SUMMARY.</p>
-</li>
-<li>
-<p>Extract 20 to 50 of the most surprising, insightful, and/or interesting ideas from the input in a section called IDEAS:. If there are less than 50 then collect all of them. Make sure you extract at least 20.</p>
-</li>
-<li>
-<p>Extract 10 to 20 of the best insights from the input and from a combination of the raw input and the IDEAS above into a section called INSIGHTS. These INSIGHTS should be fewer, more refined, more insightful, and more abstracted versions of the best ideas in the content.</p>
-</li>
-<li>
-<p>Extract 15 to 30 of the most surprising, insightful, and/or interesting quotes from the input into a section called QUOTES:. Use the exact quote text from the input. Include the name of the speaker of the quote at the end.</p>
-</li>
-<li>
-<p>Extract 15 to 30 of the most practical and useful personal habits of the speakers, or mentioned by the speakers, in the content into a section called HABITS. Examples include but aren&rsquo;t limited to: sleep schedule, reading habits, things they always do, things they always avoid, productivity tips, diet, exercise, etc.</p>
-</li>
-<li>
-<p>Extract 15 to 30 of the most surprising, insightful, and/or interesting valid facts about the greater world that were mentioned in the content into a section called FACTS:.</p>
-</li>
-<li>
-<p>Extract all mentions of writing, art, tools, projects and other sources of inspiration mentioned by the speakers into a section called REFERENCES. This should include any and all references to something that the speaker mentioned.</p>
-</li>
-<li>
-<p>Extract the most potent takeaway and recommendation into a section called ONE-SENTENCE TAKEAWAY. This should be a 15-word sentence that captures the most important essence of the content.</p>
-</li>
-<li>
-<p>Extract the 15 to 30 of the most surprising, insightful, and/or interesting recommendations that can be collected from the content into a section called RECOMMENDATIONS.</p>
-</li>
-</ul>
-<h1 id="output-instructions">OUTPUT INSTRUCTIONS</h1>
-<ul>
-<li>
-<p>Only output Markdown.</p>
-</li>
-<li>
-<p>Write the IDEAS bullets as exactly 16 words.</p>
-</li>
-<li>
-<p>Write the RECOMMENDATIONS bullets as exactly 16 words.</p>
-</li>
-<li>
-<p>Write the HABITS bullets as exactly 16 words.</p>
-</li>
-<li>
-<p>Write the FACTS bullets as exactly 16 words.</p>
-</li>
-<li>
-<p>Write the INSIGHTS bullets as exactly 16 words.</p>
-</li>
-<li>
-<p>Extract at least 25 IDEAS from the content.</p>
-</li>
-<li>
-<p>Extract at least 10 INSIGHTS from the content.</p>
-</li>
-<li>
-<p>Extract at least 20 items for the other output sections.</p>
-</li>
-<li>
-<p>Do not give warnings or notes; only output the requested sections.</p>
-</li>
-<li>
-<p>You use bulleted lists for output, not numbered lists.</p>
-</li>
-<li>
-<p>Do not repeat ideas, insights, quotes, habits, facts, or references.</p>
-</li>
-<li>
-<p>Do not start items with the same opening words.</p>
-</li>
-<li>
-<p>Ensure you follow ALL these instructions when creating your output.</p>
-</li>
-</ul>
-<h1 id="input">INPUT</h1>
-<p>INPUT:</p></blockquote>
-<p>Putting these tools together felt like a no-brainer, but I wanted a seamless workflow that would take me from audio file to insights in one step.</p>
-<h2 id="the-solution">The Solution</h2>
-<p>I created a simple Python script that:</p>
+  <h1 id="the-portfolio-problem">The Portfolio Problem</h1>
+<p>I&rsquo;ve been pretty inconsistent with portfolio documentation. I&rsquo;ll either:</p>
 <ol>
-<li>Takes any audio file as input</li>
-<li>Transcribes it using Whisper&rsquo;s base model</li>
-<li>Pipes the transcript through Fabric&rsquo;s extract_wisdom pattern</li>
-<li>Saves both the transcript and the distillation in a timestamped folder</li>
+<li>Forget to capture cool moments entirely</li>
+<li>Hastily record something but never find the file again</li>
+<li>End up with a scattered collection of clips with no context</li>
+<li>Put off making an actual reel until a job opportunity forced my hand</li>
 </ol>
-<p>The extract_wisdom pattern is particularly valuable as it organizes the content into sections like key ideas, deeper insights, notable quotes, and practical recommendations - perfect for something like conference notes from GDC.</p>
+<p>I&rsquo;ve been needing a system that&rsquo;s low-friction enough that I&rsquo;ll actually use it, but structured enough that it would automatically organize everything for me.</p>
+<p>When I&rsquo;m in the middle of a workflow, the last thing I want to do is stop, switch contexts, set up a screen recorder, figure out where to save the file, and then try to remember to organize it all later. By the time I think about my portfolio again, the thing I was up to three months ago is buried in project files or worse - completely gone because the project got turned over.</p>
+<h2 id="v0">v0</h2>
+<p>I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It&rsquo;s basically just three Python scripts:</p>
+<ul>
+<li>A capture tool that hooks into OBS</li>
+<li>A metadata generator that organizes clips by type and year</li>
+<li>A reel generator that automatically compiles everything with proper titles</li>
+</ul>
+<p>The idea is dead simple: when I do something worth documenting, I trigger the capture script (I use <a href="https://kando.menu/" target="_blank">Kando</a>, but a hotkey would work too), answer three quick questions, and boom - it records what I&rsquo;m doing, stops when I tell it to, and files it away with proper metadata. Later, when I need to show someone my work, I run one command and get a professional-looking reel that&rsquo;s ready to share.</p>
 <h2 id="how-it-works">How It Works</h2>
-<p>The script is straightforward - you run it, point it to your audio file, and it handles the rest. Behind the scenes, it uses Whisper for transcription and then leverages Fabric&rsquo;s pattern through a subprocess call.</p>
-<p>What I love about this approach is how it transforms rambling audio notes into structured, actionable insights. A 20-minute recording of my thoughts after the Audio Summit becomes a concise document highlighting the most valuable takeaways.</p>
-<h2 id="try-it-yourself">Try It Yourself</h2>
-<p>If you&rsquo;re a sound designer, developer, or anyone who records audio notes, this tool might save you hours of review time. I&rsquo;ve made the code available on <a href="https://github.com/danialrami/fabric-audio-summary" target="_blank">GitHub</a>, so feel free to check out the repository and adapt it to your needs. I also wrote an ollama version because open source always wins, but feel free to use your ollama models through fabric too.</p>
-<p>Whether you&rsquo;re processing conference recordings, meeting notes, or creative brainstorming sessions, this approach makes your audio content immediately more valuable and accessible.</p>
+<p>The workflow keeps track of:</p>
+<ul>
+<li>Multiple reel types (sound design, music composition, tech audio implementation)</li>
+<li>Project metadata (client, role, year)</li>
+<li>Clip ordering and trimming</li>
+<li>Text overlays and transitions</li>
+</ul>
+<p>Everything gets saved into a structured directory that looks like this:</p>
+<pre tabindex="0"><code>reel/
+├── sound-design/
+│   ├── 2025/
+│   │   ├── 1.mp4
+│   │   ├── 1.yaml
+│   │   ├── 2.mp4
+│   │   └── 2.yaml
+├── composition/
+│   └── 2025/
+└── implementation/
+    └── 2025/
+</code></pre><p>Each clip gets a YAML file that looks something like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Amazing Sound Design for Amazing Experience&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">role</span>: <span style="color:#e6db74">&#34;Sound Designer&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">client</span>: <span style="color:#e6db74">&#34;Amazing Studios&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">year</span>: <span style="color:#ae81ff">2025</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">order</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">start</span>: <span style="color:#ae81ff">10</span> <span style="color:#75715e"># in seconds</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">end</span>: <span style="color:#ae81ff">40</span> <span style="color:#75715e"># same here</span>
+</span></span></code></pre></div><p>When I need a reel, I just run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python create_reel.py sound-design <span style="color:#ae81ff">2025</span>
+</span></span></code></pre></div><p>And it exports a fully compiled reel with text overlays and transitions.</p>
+<h2 id="who-cares">Who cares</h2>
+<p>This is a workflow that feels like it&rsquo;s helped solve a persistent problem for me. Sound design is sorta ephemeral &ndash; in a way that visual art isn&rsquo;t. Documenting the process helps translate the work for other collaborators and non-designers by showcasing not just the final sound, but the context and intention behind it. When others can see how sound design transforms an experience, they better understand the value we bring to projects. It bridges the gap between &ldquo;sounds good&rdquo; and &ldquo;here&rsquo;s exactly how sound transformed this experience.&rdquo;</p>
+<p>What I&rsquo;ve found is that by removing the friction, I&rsquo;m way more consistent about building my portfolio over time rather than scrambling to put something together when an opportunity comes up.</p>
+<p>The biggest benefit is psychological - now I feel like I&rsquo;m building something lasting when I work on projects, not just delivering files that might disappear into the ether.</p>
+<h2 id="give-it-a-go">Give it a go</h2>
+<p>I&rsquo;ve put the code on <a href="https://github.com/danialrami/portfolio-reel" target="_blank">GitHub</a> if you&rsquo;re interested in trying it or adapting it for your own workflow. It&rsquo;s not fancy, but who wants fancy? The readme has all the setup instructions.</p>
+<p>Would love to hear what solutions you&rsquo;ve come up with 👏 more soon.</p>
 
   
   <hr>
 <div class="footer">
     
 	    
-            <a class="previous-post" href="https://danialrami.com/posts/midi-audio-recorder/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>MIDI &amp; Audio Recorder</a>
+            <a class="previous-post" href="https://danialrami.com/posts/embracing-lua-as-an-audio-tool/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Lua in REAPER</a>
         
 	    
-            <div class="next-post">
-                <a href="https://danialrami.com/posts/embracing-lua-as-an-audio-tool/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Lua in REAPER</a>
-            </div>
-        
     
 </div>
 
@@ -660,13 +609,10 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
       <h4 id="contents"></h4>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#the-tools-and-a-chance-to-soapbox-about-open-source-tech">The Tools, and a chance to soapbox about open source tech</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#the-solution">The Solution</a></li>
+    <li><a href="#v0">v0</a></li>
     <li><a href="#how-it-works">How It Works</a></li>
-    <li><a href="#try-it-yourself">Try It Yourself</a></li>
+    <li><a href="#who-cares">Who cares</a></li>
+    <li><a href="#give-it-a-go">Give it a go</a></li>
   </ul>
 </nav>
     </div>
