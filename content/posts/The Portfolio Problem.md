@@ -4,8 +4,6 @@ date: 2025-04-16
 draft: false
 ---
 
-# The Portfolio Problem
-
 I've been pretty inconsistent with portfolio documentation. I'll either:
 
 1. Forget to capture cool moments entirely
