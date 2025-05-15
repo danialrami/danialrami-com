@@ -6,7 +6,7 @@ draft: false
 
 I came back from GDC 2025 full of ideas and insights from the Audio Summit sessions. While in San Francisco, I recorded numerous personal audio notes after talks like Wilbert Roget's lecture on the Helldivers 2 score and Cody Matthew Johnson's session on diegetic music in Star Wars Outlaws.
 
-But at least for me, when it comes to audio recordings - they often sit untouched 🥹 Because reviewing them takes alot of time! So I tried to figure this out with a simple script.
+But at least for me, when it comes to these types of audio recordings - they often sit untouched 🥹😅 Because reviewing them takes alot of time! So I tried to figure this out with a simple script.
 
 ## The Tools, and a chance to soapbox about open source tech
 
