@@ -11,10 +11,17 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 - [Perfect Circuit](https://www.perfectcircuit.com/signal)
 - [Airwiggles](https://www.airwiggles.com/)
 - [Justin Tomchuk](https://justintomchuk.com/)
-
-## Indieweb Stuff
+- [Rodrigo Constanzo](https://rodrigoconstanzo.com/)
 - [Rob Bridgett](https://robbridgett.com/)
 - [nadia.audio](https://nadia.audio/)
+
+## [Indieweb](https://indieweb.org/) Stuff
+- [32bit.cafe](https://32bit.cafe/)
+- [Dreamwidth](https://www.dreamwidth.org/)
+- [Hotline](https://hotlinewebring.club/)
+- [foreverliketh.is](https://foreverliketh.is/)
+- [wiby](https://wiby.org/)
+- [micro.blog](https://micro.blog/)
 
 ## Tech
 
