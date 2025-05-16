@@ -71,17 +71,17 @@ What makes Merlet's system particularly valuable is how it connects mathematical
 
 Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through [tools](https://docs.openwebui.com/features/plugin/) - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.
 
-[Model Context Protocols (MCPs)](https://www.anthropic.com/news/model-context-protocol) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
+[Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol) servers are quickly becoming adopted as the next evolution within this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
 
-What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters, MCPs allow natural language to serve as the interface to complex systems. You can literally ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.
+What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters -- like a plugin -- MCPs allow natural language to serve as the interface to complex systems. You can ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.
 
-For creative fields like sound design and music composition, this approach holds particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation — a gap that has traditionally required significant mental translation work. MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.
+For creative fields like sound design and music composition, this approach holds particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation — a gap that has traditionally required significant mental translation work. MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools in the background.
 
-In essence, MCPs create a collaborative environment where your understanding of musical theory (augmented by the LLM's broader knowledge) can directly inform technical implementation without requiring you to manually translate between these domains. You can focus on creative exploration while the system handles the technical execution.
+In essence, MCPs create a collaborative environment where your understanding of music theory, augmented by an LLM's broader knowledge, can directly inform technical implementation without requiring you to manually translate between these domains. You can focus on creative exploration while the system handles the technical execution.
 
 ## Case Study: Shoulders of Giants
 
-With this framework in mind, I decided to create a practical example — a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.
+With this in mind, I decided to create a practical example — a custom tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.
 
 The implementation process itself was enlightening. Translating Merlet's visual diagram into code required me to formalize aspects of the system that I had previously internalized more intuitively. I needed to define precise data structures for the modes, their symmetry types, and historical references:
 
