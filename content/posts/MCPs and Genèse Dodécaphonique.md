@@ -16,7 +16,7 @@ The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Miche
 
 The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. At 1 we split once, to get C and F# -- tritones, and an equally split octave. Each mode is color-coded in pairs, creating a visual map of tonal relationships. For every mode created this way, there is its "complement" mode mirrored and colored accordingly across the diagram.
 
-Check out Merlet's insight below:
+Check out Merlet's diagram below:
 
 ![Image Description](/images/attachments/MusicChart_120120v2.jpg)
 *Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, many years ago!*
@@ -51,54 +51,55 @@ The diagram also shows modes 8-12, which complement modes 4-0 respectively, crea
 
 What makes Merlet's system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren't merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century.
 
-## LLM Tools & Model Context Protocols (MCPs)
+## Model Context Protocols
 
 Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.
 
-Model Context Protocols (MCPs) represent the next evolution in this ecosystem - standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
+Model Context Protocols (MCPs) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
 
-For creative fields like sound design and music composition, MCPs hold particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation - MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.
+What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters, MCPs allow natural language to serve as the interface to complex systems. You can literally ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.
 
-## Case Study: Building a Merlet Mode Generator Tool
+For creative fields like sound design and music composition, this approach holds particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation — a gap that has traditionally required significant mental translation work. MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.
 
-To demonstrate this concept, I created a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool encapsulates the theoretical framework while making it immediately applicable to compositional work.
+In essence, MCPs create a collaborative environment where your understanding of musical theory (augmented by the LLM's broader knowledge) can directly inform technical implementation without requiring you to manually translate between these domains. You can focus on creative exploration while the system handles the technical execution.
 
-Here's the core functionality of the tool:
+## Case Study: Shoulders of Giants
+
+With this framework in mind, I decided to create a practical example — a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.
+
+The implementation process itself was enlightening. Translating Merlet's visual diagram into code required me to formalize aspects of the system that I had previously internalized more intuitively. I needed to define precise data structures for the modes, their symmetry types, and historical references:
+
+python
 
 ```python
-def generate_merlet_modes(root_note="C"):
-    notes = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
-    # Define all modes from Merlet's diagram
-    modes = [
-        Mode(
-            0,
-            "12-12=0 Chromatic",
-            [1] * 12,
-            SymmetryType.NONE,
-            HistoricalReference("Schönberg", "Valse, Cinq pièces opus 23", 1923),
-        ),
-        # Additional modes defined here...
-    ]
-    
-    # Generate scales for each mode starting with the specified root note
-    results = []
-    for mode in modes:
-        primary_scale = generate_scale(mode.intervals, start_index)
-        complement_scale = [note for note in notes if note not in primary_scale]
-        results.append(
-            {
-                "mode_number": mode.number,
-                "name": f"Mode {mode.number}: {mode.name}",
-                "symmetry": mode.symmetry_type.value,
-                "primary": primary_scale,
-                "complement": complement_scale,
-                "historical_ref": f"{mode.historical_ref.composer} - {mode.historical_ref.work} ({mode.historical_ref.year})",
-            }
-        )
-    return results
+from enum import Enum
+from dataclasses import dataclass
+from typing import List, Optional
+
+class SymmetryType(Enum):
+    SYMMETRIC = "symmetric"
+    ASYMMETRIC = "asymmetric"
+    ANTIPODAL = "antipodal"
+    NONE = "absence de complémentarité"
+
+@dataclass
+class HistoricalReference:
+    composer: str
+    work: str
+    year: int
+
+@dataclass
+class Mode:
+    number: int
+    name: str
+    intervals: List[int]
+    symmetry_type: SymmetryType
+    historical_ref: Optional[HistoricalReference] = None
 ```
 
-I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I prompt:
+With these structures in place, I could then implement the core algorithm that generates each mode based on its defining interval pattern:
+
+I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I can simply prompt:
 
 > "Generate the Merlet table in markdown format with root note C"
 
