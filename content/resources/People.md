@@ -32,7 +32,7 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Daniel Ramirez's Retro Button</title>
+  <title>Daniel's button</title>
   <style>
     @keyframes pulseShadow {
       0%, 100% {
@@ -76,7 +76,7 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
   </style>
 </head>
 <body>
-  <a href="https://danialrami.com" class="webring-button" title="danialrami.com!">
+  <a href="https://lufs.audio" class="webring-button" title="lufs!">
     <svg width="88" height="31" viewBox="0 0 264 62" xmlns="http://www.w3.org/2000/svg">
       <rect width="264" height="62" fill="#e0e0e0"/>
       <!-- Cloud 1 -->
