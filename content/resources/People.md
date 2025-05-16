@@ -9,6 +9,8 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 ## Music
 - [Music Thing Modular](https://www.musicthing.co.uk/)
 - [Perfect Circuit](https://www.perfectcircuit.com/signal)
+- [Airwiggles](https://www.airwiggles.com/)
+- [Justin Tomchuk](https://justintomchuk.com/)
 
 ## Indieweb Stuff
 - [Rob Bridgett](https://robbridgett.com/)
