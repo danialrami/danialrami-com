@@ -113,7 +113,7 @@ class Mode:
 
 With these structures in place, I could then implement the core algorithm that generates each mode based on its defining interval pattern:
 
-I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I can simply prompt:
+I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I prompt:
 
 > "Generate the Merlet table in markdown format with root note C"
 
@@ -126,11 +126,9 @@ And receive a comprehensive table showing each mode, its symmetry properties, sc
 |Mode 2: 8÷2-5|symmetric|C D E Gb|Db Eb F G Ab A Bb B|Messiaen - 4e partie de l'Ascension (1933)|
 |...|...|...|...|...|
 
-![Image Description](/images/Screenshot%202025-05-16%20at%203.39.00%20PM.png)
-
 ## Applications
 
-The implications for sound design go beyond mere academic interest. By encoding Merlet's theoretical framework into an accessible tool, we open up several practical applications:
+The use case for sound design goes beyond just academic interest. By encoding Merlet's theoretical framework into an accessible tool, we open up several practical applications:
 
 ### 1. Compositional Frameworks
 
@@ -143,6 +141,8 @@ The symmetrical properties of these modes can inform synthesizer parameter setti
 - Using Mode 3's augmented structure to create equidistant filter modulations
 - Applying Mode 4's symmetrical intervals to FM synthesis ratios
 - Mapping Mode 6's whole-tone structure to granular density parameters
+
+![Image Description](/images/Screenshot%202025-05-16%20at%203.39.00%20PM.png)
 
 ### 3. Generative Audio Systems
 
