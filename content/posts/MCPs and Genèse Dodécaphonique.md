@@ -12,7 +12,7 @@ That's when I learned about MCPs, which I'll get back to in a sec..
 
 The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
 
-[^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it! You'll end up with some pretty cool effects 🤝
+[^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the context of Western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it! You'll end up with some pretty cool effects 🤝
 
 The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. At 1 we split once, to get C and F# -- tritones, and an equally split octave. Each mode is color-coded in pairs, creating a visual map of tonal relationships. For every mode created this way, there is its "complement" mode mirrored and colored accordingly across the diagram.
 
@@ -60,7 +60,7 @@ Composed of consistent whole-tone intervals (2 semitones), creating perfect symm
 - [Alternate: Orchestral arrangement by Royal Scottish National Orchestra, cond. Jun Märkl](https://www.youtube.com/watch?v=535hjwrgf40)
 
 **Mode 7: Diatonic**  
-The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel’s “La Laideronnette"
+The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel’s “La Laideronnette".
 - [Listen: Ravel – La Laideronnette](https://www.youtube.com/watch?v=N_ENSdLOblk&t=363s)
 
 The diagram also shows modes 8-12, which complement modes 4-0 respectively, creating a symmetrical relationship within the system.
