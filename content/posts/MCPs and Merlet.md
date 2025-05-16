@@ -1,5 +1,5 @@
 ---
-title: MCPs and Genese Dodecaphonique
+title: MCPs and Merlet
 date: 2025-05-16
 draft: false
 ---
