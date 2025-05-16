@@ -170,7 +170,7 @@ This level of integration would transform how we approach sound design, bridging
 
 ## Conclusion
 
-The marriage of specialized musical knowledge with the emerging capabilities of LLMs and Model Context Protocols represents a new frontier for sound designers. By building custom tools that encapsulate theoretical frameworks like Merlet's modal system, we can make complex musical concepts immediately applicable to our creative workflows.
+The marriage of specialized musical knowledge with the emerging capabilities of LLMs and Model Context Protocols could represent a new interface for audio people. By building tools that encapsulate theoretical frameworks like Merlet's modal system, we can make complex musical concepts immediately applicable to our creative workflows.
 
 As we continue to develop these integrations, the boundary between conceptual thinking and implementation will become increasingly fluid. Sound designers will be able to move seamlessly between high-level musical ideas and their concrete sonic realizations, opening new possibilities for creative exploration.
 
