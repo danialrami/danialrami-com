@@ -537,7 +537,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <h2 id="merlets-system">Merlet&rsquo;s System</h2>
 <p>The &ldquo;Genèse Dodécaphonique des Modes&rdquo; (Dodecaphonic Genesis of Modes) is Michel Merlet&rsquo;s systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet&rsquo;s system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion &ndash; &ldquo;let&rsquo;s start with the octave, and keep splitting.&rdquo; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The system was first illustrated to me in the diagram below &ndash; visually represented as a clock-like circular diagram. At 12 o&rsquo; clock, we take the octave and split it into 12 &ndash; our chromatic scale. At 1 we split once, to get C and F# &ndash; tritones, and an equally split octave. Each mode is color-coded in pairs, creating a visual map of tonal relationships. For every mode created this way, there is its &ldquo;complement&rdquo; mode mirrored and colored accordingly across the diagram.</p>
-<p>Check out Merlet&rsquo;s insight below:</p>
+<p>Check out Merlet&rsquo;s diagram below:</p>
 <p><img src="/images/attachments/MusicChart_120120v2.jpg" alt="Image Description">
 <em>Shoutout to <a href="https://ashsuh.com/" target="_blank">Ash Suh</a> for making this copy for me, many years ago!</em></p>
 <p>The modes are numbered from 0 to 12:</p>
@@ -559,44 +559,41 @@ Composed of consistent whole-tone intervals (2 semitones), creating perfect symm
 The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel&rsquo;s &ldquo;La décronnelle&rdquo; (1908).</p>
 <p>The diagram also shows modes 8-12, which complement modes 4-0 respectively, creating a symmetrical relationship within the system.</p>
 <p>What makes Merlet&rsquo;s system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren&rsquo;t merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century.</p>
-<h2 id="llm-tools--model-context-protocols-mcps">LLM Tools &amp; Model Context Protocols (MCPs)</h2>
+<h2 id="model-context-protocols">Model Context Protocols</h2>
 <p>Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.</p>
-<p>Model Context Protocols (MCPs) represent the next evolution in this ecosystem - standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.</p>
-<p>For creative fields like sound design and music composition, MCPs hold particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation - MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.</p>
-<h2 id="case-study-building-a-merlet-mode-generator-tool">Case Study: Building a Merlet Mode Generator Tool</h2>
-<p>To demonstrate this concept, I created a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool encapsulates the theoretical framework while making it immediately applicable to compositional work.</p>
-<p>Here&rsquo;s the core functionality of the tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_merlet_modes</span>(root_note<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;C&#34;</span>):
-</span></span><span style="display:flex;"><span>    notes <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;C&#34;</span>, <span style="color:#e6db74">&#34;Db&#34;</span>, <span style="color:#e6db74">&#34;D&#34;</span>, <span style="color:#e6db74">&#34;Eb&#34;</span>, <span style="color:#e6db74">&#34;E&#34;</span>, <span style="color:#e6db74">&#34;F&#34;</span>, <span style="color:#e6db74">&#34;Gb&#34;</span>, <span style="color:#e6db74">&#34;G&#34;</span>, <span style="color:#e6db74">&#34;Ab&#34;</span>, <span style="color:#e6db74">&#34;A&#34;</span>, <span style="color:#e6db74">&#34;Bb&#34;</span>, <span style="color:#e6db74">&#34;B&#34;</span>]
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Define all modes from Merlet&#39;s diagram</span>
-</span></span><span style="display:flex;"><span>    modes <span style="color:#f92672">=</span> [
-</span></span><span style="display:flex;"><span>        Mode(
-</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">0</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;12-12=0 Chromatic&#34;</span>,
-</span></span><span style="display:flex;"><span>            [<span style="color:#ae81ff">1</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">12</span>,
-</span></span><span style="display:flex;"><span>            SymmetryType<span style="color:#f92672">.</span>NONE,
-</span></span><span style="display:flex;"><span>            HistoricalReference(<span style="color:#e6db74">&#34;Schönberg&#34;</span>, <span style="color:#e6db74">&#34;Valse, Cinq pièces opus 23&#34;</span>, <span style="color:#ae81ff">1923</span>),
-</span></span><span style="display:flex;"><span>        ),
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Additional modes defined here...</span>
-</span></span><span style="display:flex;"><span>    ]
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Generate scales for each mode starting with the specified root note</span>
-</span></span><span style="display:flex;"><span>    results <span style="color:#f92672">=</span> []
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> mode <span style="color:#f92672">in</span> modes:
-</span></span><span style="display:flex;"><span>        primary_scale <span style="color:#f92672">=</span> generate_scale(mode<span style="color:#f92672">.</span>intervals, start_index)
-</span></span><span style="display:flex;"><span>        complement_scale <span style="color:#f92672">=</span> [note <span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes <span style="color:#66d9ef">if</span> note <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> primary_scale]
-</span></span><span style="display:flex;"><span>        results<span style="color:#f92672">.</span>append(
-</span></span><span style="display:flex;"><span>            {
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;mode_number&#34;</span>: mode<span style="color:#f92672">.</span>number,
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Mode </span><span style="color:#e6db74">{</span>mode<span style="color:#f92672">.</span>number<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>mode<span style="color:#f92672">.</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;symmetry&#34;</span>: mode<span style="color:#f92672">.</span>symmetry_type<span style="color:#f92672">.</span>value,
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;primary&#34;</span>: primary_scale,
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;complement&#34;</span>: complement_scale,
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;historical_ref&#34;</span>: <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>mode<span style="color:#f92672">.</span>historical_ref<span style="color:#f92672">.</span>composer<span style="color:#e6db74">}</span><span style="color:#e6db74"> - </span><span style="color:#e6db74">{</span>mode<span style="color:#f92672">.</span>historical_ref<span style="color:#f92672">.</span>work<span style="color:#e6db74">}</span><span style="color:#e6db74"> (</span><span style="color:#e6db74">{</span>mode<span style="color:#f92672">.</span>historical_ref<span style="color:#f92672">.</span>year<span style="color:#e6db74">}</span><span style="color:#e6db74">)&#34;</span>,
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        )
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> results
-</span></span></code></pre></div><p>I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I prompt:</p>
+<p>Model Context Protocols (MCPs) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.</p>
+<p>What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters, MCPs allow natural language to serve as the interface to complex systems. You can literally ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.</p>
+<p>For creative fields like sound design and music composition, this approach holds particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation — a gap that has traditionally required significant mental translation work. MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.</p>
+<p>In essence, MCPs create a collaborative environment where your understanding of musical theory (augmented by the LLM&rsquo;s broader knowledge) can directly inform technical implementation without requiring you to manually translate between these domains. You can focus on creative exploration while the system handles the technical execution.</p>
+<h2 id="case-study-shoulders-of-giants">Case Study: Shoulders of Giants</h2>
+<p>With this framework in mind, I decided to create a practical example — a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.</p>
+<p>The implementation process itself was enlightening. Translating Merlet&rsquo;s visual diagram into code required me to formalize aspects of the system that I had previously internalized more intuitively. I needed to define precise data structures for the modes, their symmetry types, and historical references:</p>
+<p>python</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> enum <span style="color:#f92672">import</span> Enum
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> dataclasses <span style="color:#f92672">import</span> dataclass
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> typing <span style="color:#f92672">import</span> List, Optional
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SymmetryType</span>(Enum):
+</span></span><span style="display:flex;"><span>    SYMMETRIC <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;symmetric&#34;</span>
+</span></span><span style="display:flex;"><span>    ASYMMETRIC <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;asymmetric&#34;</span>
+</span></span><span style="display:flex;"><span>    ANTIPODAL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;antipodal&#34;</span>
+</span></span><span style="display:flex;"><span>    NONE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;absence de complémentarité&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@dataclass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HistoricalReference</span>:
+</span></span><span style="display:flex;"><span>    composer: str
+</span></span><span style="display:flex;"><span>    work: str
+</span></span><span style="display:flex;"><span>    year: int
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@dataclass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Mode</span>:
+</span></span><span style="display:flex;"><span>    number: int
+</span></span><span style="display:flex;"><span>    name: str
+</span></span><span style="display:flex;"><span>    intervals: List[int]
+</span></span><span style="display:flex;"><span>    symmetry_type: SymmetryType
+</span></span><span style="display:flex;"><span>    historical_ref: Optional[HistoricalReference] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span></code></pre></div><p>With these structures in place, I could then implement the core algorithm that generates each mode based on its defining interval pattern:</p>
+<p>I integrated this tool with OpenWebUI, allowing me to interact with it through natural language. For example, I can simply prompt:</p>
 <blockquote>
 <p>&ldquo;Generate the Merlet table in markdown format with root note C&rdquo;</p></blockquote>
 <p>And receive a comprehensive table showing each mode, its symmetry properties, scale notes, complementary notes, and historical reference:</p>
@@ -713,8 +710,8 @@ The traditional seven-note scale (like major and minor scales) with its characte
       <nav id="TableOfContents">
   <ul>
     <li><a href="#merlets-system">Merlet&rsquo;s System</a></li>
-    <li><a href="#llm-tools--model-context-protocols-mcps">LLM Tools &amp; Model Context Protocols (MCPs)</a></li>
-    <li><a href="#case-study-building-a-merlet-mode-generator-tool">Case Study: Building a Merlet Mode Generator Tool</a></li>
+    <li><a href="#model-context-protocols">Model Context Protocols</a></li>
+    <li><a href="#case-study-shoulders-of-giants">Case Study: Shoulders of Giants</a></li>
     <li><a href="#applications-for-sound-designers">Applications for Sound Designers</a>
       <ul>
         <li><a href="#1-compositional-frameworks">1. Compositional Frameworks</a></li>
