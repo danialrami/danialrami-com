@@ -1,5 +1,5 @@
 ---
-title: The Portfolio Problem
+title: Portfolio Problems
 date: 2025-04-16
 draft: false
 ---
