@@ -53,7 +53,7 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
       background: #111111;
       border: 2px solid #b0b0b0;
       box-shadow:
-        0 0 0 4px #111111,
+        0 0 0 4px #f8f8f8,
         0 0 0 6px #888,
         2px 2px 0 0 #b0b0b0;
       margin: 8px;
