@@ -19,7 +19,7 @@ The system was first illustrated to me in the diagram below -- visually represen
 Check out Merlet's diagram below:
 
 ![Image Description](/images/MusicChart_120120v2.jpg)
-*Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, many years ago!*
+*Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, a while back!*
 
 The modes are numbered from 0 to 12:
 
