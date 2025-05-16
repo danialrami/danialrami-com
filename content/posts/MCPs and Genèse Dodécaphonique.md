@@ -33,7 +33,7 @@ The complete chromatic scale using all twelve tones. It has no complementary str
 
 **Mode 1: Tritone**  
 Based on the tritone interval (6 semitones), creating an “antipodal” symmetry that divides the octave precisely in half. Historically referenced in Ballif’s “À cor et à cri” (1962).  
-- [Listen: Claude Ballif – À cor et à cri (Orchestre National, cond. Lucas Vis)](https://www.discogs.com/release/25363444-Claude-Ballif-Untitled)[2](https://www.discogs.com/release/25363444-Claude-Ballif-Untitled)
+- [Listen: Claude Ballif – À cor et à cri (Orchestre National, cond. Lucas Vis)](https://www.discogs.com/release/25363444-Claude-Ballif-Untitled)
 
 **Mode 2: 8÷2=5 (Diminished)**  
 Created with consistent 2-semitone intervals, producing a symmetrical diminished structure. Exemplified in Messiaen’s “4e partie de l’Ascension” (1933).  
