@@ -518,7 +518,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
           
         
 
-        <span>8 mins read</span>
+        <span>9 mins read</span>
       </span>
     </div>
 
@@ -655,14 +655,15 @@ The traditional seven-note scale (like major and minor scales) with its characte
 <p>The complementary structure of Merlet&rsquo;s system (where each mode has its complement) provides a framework for designing contrasting but related timbres—useful for creating coherent soundscapes with internal variation.</p>
 <h2 id="mcp-integration-for-audio-applications">MCP Integration for Audio Applications</h2>
 <p>While my current implementation works as a standalone tool in OpenWebUI, the real potential lies in developing dedicated Model Context Protocol servers for audio manipulation. Here&rsquo;s how this could evolve:</p>
-<h3 id="audio-specific-mcp-server">Audio-Specific MCP Server</h3>
-<p>An audio-focused MCP server could provide LLMs with direct control over:</p>
+<h3 id="audio-specific-mcp-servers">Audio-Specific MCP Servers</h3>
+<p>Audio-focused MCP servers could provide LLMs with direct control over:</p>
 <ol>
-<li><strong>Scale-Based Synthesis</strong> - Generate synthesizer patches based on modal characteristics</li>
+<li><strong>Scale-Based Synthesis</strong> - Generate patterns based on modal characteristics</li>
 <li><strong>Real-time Audio Analysis</strong> - Analyze recorded audio for its modal content</li>
 <li><strong>DAW Integration</strong> - Send MIDI data or control parameters directly to digital audio workstations</li>
 <li><strong>Sample Retrieval and Manipulation</strong> - Find and transform audio samples to match specific modal characteristics</li>
 </ol>
+<p>The key is that MCP just provides an interface with the rest of your code. So you can leave the probabilistic nature of LLMs to your conversation, and rely on steady code for the heavy lifting.</p>
 <h3 id="example-interaction">Example Interaction</h3>
 <p>Imagine prompting an LLM with:</p>
 <blockquote>
@@ -673,7 +674,11 @@ The traditional seven-note scale (like major and minor scales) with its characte
 <li>Create MIDI patterns emphasizing these notes</li>
 <li>Design synthesis parameters that accentuate the equidistant nature of the augmented scale</li>
 <li>Program automation curves that increase complexity over time</li>
-<li>Export directly to your DAW or synth</li>
+<li>Export directly to your DAW or synth
+<ul>
+<li>see my previous post about <a href="https://danialrami.com/posts/lua-in-reaper/" target="_blank">scripting in REAPER</a></li>
+</ul>
+</li>
 </ol>
 <p>This level of integration would transform how we approach sound design, bridging the gap between theoretical concepts and practical implementation.</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -722,7 +727,7 @@ The traditional seven-note scale (like major and minor scales) with its characte
     </li>
     <li><a href="#mcp-integration-for-audio-applications">MCP Integration for Audio Applications</a>
       <ul>
-        <li><a href="#audio-specific-mcp-server">Audio-Specific MCP Server</a></li>
+        <li><a href="#audio-specific-mcp-servers">Audio-Specific MCP Servers</a></li>
         <li><a href="#example-interaction">Example Interaction</a></li>
       </ul>
     </li>

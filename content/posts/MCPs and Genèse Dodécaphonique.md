@@ -140,14 +140,16 @@ The complementary structure of Merlet's system (where each mode has its compleme
 
 While my current implementation works as a standalone tool in OpenWebUI, the real potential lies in developing dedicated Model Context Protocol servers for audio manipulation. Here's how this could evolve:
 
-### Audio-Specific MCP Server
+### Audio-Specific MCP Servers
 
-An audio-focused MCP server could provide LLMs with direct control over:
+Audio-focused MCP servers could provide LLMs with direct control over:
 
-1. **Scale-Based Synthesis** - Generate synthesizer patches based on modal characteristics
+1. **Scale-Based Synthesis** - Generate patterns based on modal characteristics
 2. **Real-time Audio Analysis** - Analyze recorded audio for its modal content
 3. **DAW Integration** - Send MIDI data or control parameters directly to digital audio workstations
 4. **Sample Retrieval and Manipulation** - Find and transform audio samples to match specific modal characteristics
+
+The key is that MCP just provides an interface with the rest of your code. So you can leave the probabilistic nature of LLMs to your conversation, and rely on steady code for the heavy lifting.
 
 ### Example Interaction
 
@@ -162,6 +164,7 @@ The MCP server would:
 3. Design synthesis parameters that accentuate the equidistant nature of the augmented scale
 4. Program automation curves that increase complexity over time
 5. Export directly to your DAW or synth
+	- see my previous post about [scripting in REAPER](https://danialrami.com/posts/lua-in-reaper/)
 
 This level of integration would transform how we approach sound design, bridging the gap between theoretical concepts and practical implementation.
 
