@@ -8,13 +8,15 @@ In 2017, I was a student of the French composer Michel Merlet, and he introduced
 I've been thinking about Merlet recently, and how musical frameworks like his create a stable foundation for tonal exploration. Shoulders of giants and all that. I was trying to see if I could come up with a way to codify this foundation in a tool that I can mess around and prod a bit -- I love the determinism of this system, but I wanted a way to visualize it a bit better, and even bounce ideas off of it. 
 
 That's when I learned about MCPs, which I'll get back to in a sec..
-## The Merlet System Explained
+## Merlet's System
 
 The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
 
 [^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it! You'll end up with some pretty cool effects 🤝
 
-The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:
+The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. At 1 we split once, to get C and F# -- tritones, and an equally split octave. Each mode is color-coded in pairs, creating a visual map of tonal relationships. For every mode created this way, there is its "complement" mode mirrored and colored accordingly across the diagram.
+
+Check out Merlet's insight below:
 
 ![Image Description](/images/attachments/MusicChart_120120v2.jpg)
 *Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, many years ago!*
@@ -24,7 +26,7 @@ The modes are numbered from 0 to 12:
 **Mode 0: Chromatic (12-12=0)**  
 The complete chromatic scale using all twelve tones. It has no complementary structure ("absence de complémentarité") and is historically exemplified in Schoenberg's "Valse, Cinq pièces opus 23" (1923).
 
-**Mode 1: Triton**  
+**Mode 1: Tritone**  
 Based on the tritone interval (6 semitones), creating an "antipodal" symmetry that divides the octave precisely in half. Historically referenced in Ballif's "À cor et à cri" (1962).
 
 **Mode 2: 8÷2=5 (Diminished)**  
