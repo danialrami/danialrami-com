@@ -56,11 +56,11 @@
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name"> - Lua in REAPER</title>
-<meta property="og:title" content=&#32;-&#32;Lua&#32;in&#32;REAPER />
-<meta name="twitter:title" content=&#32;-&#32;Lua&#32;in&#32;REAPER />
-<meta itemprop="name" content=&#32;-&#32;Lua&#32;in&#32;REAPER />
-<meta name="application-name" content=&#32;-&#32;Lua&#32;in&#32;REAPER />
+<title itemprop="name"> - Portfolio Problems</title>
+<meta property="og:title" content=&#32;-&#32;Portfolio&#32;Problems />
+<meta name="twitter:title" content=&#32;-&#32;Portfolio&#32;Problems />
+<meta itemprop="name" content=&#32;-&#32;Portfolio&#32;Problems />
+<meta name="application-name" content=&#32;-&#32;Portfolio&#32;Problems />
 <meta property="og:site_name" content="" />
 
 
@@ -70,14 +70,14 @@
 <meta name="twitter:description" content="" />
 
 
-<base href="https://danialrami.com/posts/lua-in-reaper/" />
-<link rel="canonical" href="https://danialrami.com/posts/lua-in-reaper/" itemprop="url" />
-<meta name="url" content="https://danialrami.com/posts/lua-in-reaper/" />
-<meta name="twitter:url" content="https://danialrami.com/posts/lua-in-reaper/" />
-<meta property="og:url" content="https://danialrami.com/posts/lua-in-reaper/" />
+<base href="https://danialrami.com/posts/portfolio-problems/" />
+<link rel="canonical" href="https://danialrami.com/posts/portfolio-problems/" itemprop="url" />
+<meta name="url" content="https://danialrami.com/posts/portfolio-problems/" />
+<meta name="twitter:url" content="https://danialrami.com/posts/portfolio-problems/" />
+<meta property="og:url" content="https://danialrami.com/posts/portfolio-problems/" />
 
 
-<meta property="og:updated_time" content="2025-04-11T00:00:00Z" />
+<meta property="og:updated_time" content="2025-04-16T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://danialrami.com/sitemap.xml' />
@@ -501,15 +501,15 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="post">
   <div class="info">
   <h1 class="post-title">
-    <a href="https://danialrami.com/posts/lua-in-reaper/">Lua in REAPER</a>
+    <a href="https://danialrami.com/posts/portfolio-problems/">Portfolio Problems</a>
   </h1>
 
   <div class="headline">
     <div>
       
       
-      <time datetime=" 2025-04-11T00:00:00Z" class="post-date">
-        April 11, 2025
+      <time datetime=" 2025-04-16T00:00:00Z" class="post-date">
+        April 16, 2025
       </time>
       
       <span> - </span>
@@ -518,7 +518,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
           
         
 
-        <span>6 mins read</span>
+        <span>3 mins read</span>
       </span>
     </div>
 
@@ -531,81 +531,72 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   
 </div>
 
-  <p>I first got introduced to Lua a few years ago while messing around with a <a href="https://llllllll.co/c/library/18" target="_blank">monome norns</a>. At the time, I was just downloading Lua scripts that others had made, but I found myself really interested in reading through the code and inspired by how accessible the norns was as a platform for creating new instruments and effects. The simplicity of the language combined with its power to transform hardware into entirely new sonic tools fascinated me, even though I wasn&rsquo;t writing my own scripts yet.</p>
-<p><img src="/images/IMG_3563.jpeg" alt="Image Description"></p>
-<p>For years, Logic has been my go-to for general sound design work, but when it comes to certain media, like gaming, REAPER has some of the best functionality and extensibility. Scripting in REAPER with Lua has transformed the way I think about the day to day process when working with audio.</p>
-<h2 id="multi-daw">Multi-DAW</h2>
-<p>In general I feel like most DAWs can do basically everything at this point. There are some that have better video compatibility, or rendering options, etc, but in general it&rsquo;s clear that different industries use different DAWs often because of the history and culture in those fields rather than just the specific functionality. Switching between DAWs can help immensely with collaboration, but often feels like you&rsquo;re relearning the same concepts wrapped in different interfaces and workflows. Each DAW has its own quirks, keyboard shortcuts, and ways of organizing projects. The cognitive load of switching between them can slow you down significantly when you&rsquo;re in the middle of a creative process. For game audio specifically, there&rsquo;s the addition of middleware and game engines &ndash; each time a new context switch.</p>
-<h2 id="lua-scripting-in-reaper">Lua Scripting in REAPER</h2>
-<p>What makes REAPER stand out for game audio work, besides its tight integration with tools like FMOD, is its extensive scripting capabilities. While many DAWs offer some form of macro configuration, REAPER&rsquo;s implementation of Lua scripting is particularly powerful and accessible. It allows you to automate repetitive tasks, create custom tools, bridge with other platforms, and essentially reshape the DAW to match your ideal workflow rather than adapting to someone else&rsquo;s vision of how you should work.</p>
-<p>The beauty of Lua is its simplicity and readability. I&rsquo;m not an experienced programmer, but the learning curve is manageable, and the results are immediately impactful to my daily work.</p>
-<h2 id="creating-an-orchestral-template-in-lua">Creating an Orchestral Template in Lua</h2>
-<p>As a proof of concept, I recently challenged myself to recreate my Logic orchestral template in REAPER using Lua. This template had evolved over several years in Logic, representing small optimizations and workflow improvements.</p>
-<p><a href="https://github.com/danialrami/reaper-scripts/blob/main/v0_template.lua" target="_blank">I wrote a Lua script</a> that builds the entire template from scratch. In less than a day, I had a working script that:</p>
-<ul>
-<li>Creates a structured folder hierarchy for different instrument groups (Strings, Brass, Woodwinds, etc.)</li>
-<li>Sets up submixes and routing for each section</li>
-<li>Configures stem outputs for easier delivery to middleware</li>
-<li>Adds utility tracks like reference audio and pink noise</li>
-<li>Applies appropriate color coding for visual organization</li>
-<li>Configures metronome routing and project settings</li>
-</ul>
-<p>The script executes in seconds, creating a project structure that would take hours to set up manually the first time, and additional time to tune to a specific project. More importantly, it&rsquo;s consistent every time - no forgetting a send or misconfiguring a track.</p>
-<h2 id="lua-for-audio-workflows">Lua for Audio Workflows</h2>
-<p>Lua offers several unique advantages for my work, and potentially in other audio fields more generally:</p>
+  <p>I&rsquo;ve been pretty inconsistent with portfolio documentation. I&rsquo;ll either:</p>
 <ol>
-<li>
-<p><strong>Reproducibility</strong>: Every project can start from an identical template, ensuring consistency across your work.</p>
-</li>
-<li>
-<p><strong>Version Control</strong>: Unlike DAW templates that are essentially black boxes, script-based templates can be versioned, commented, and iteratively improved. You can track changes over time and even branch off specialized templates for different types of projects.</p>
-</li>
-<li>
-<p><strong>Flexibility</strong>: Need to make a change to your template structure? Just update the script once rather than manually adjusting dozens of existing projects.</p>
-</li>
-<li>
-<p><strong>Knowledge Sharing</strong>: Scripts are easier to share and explain to collaborators than trying to walk someone through a complex DAW template verbally.</p>
-</li>
-<li>
-<p><strong>Cross-Platform Compatibility</strong>: Scripts work across all platforms, making collaboration smoother.</p>
-</li>
+<li>Forget to capture cool moments entirely</li>
+<li>Hastily record something but never find the file again</li>
+<li>End up with a scattered collection of clips with no context</li>
+<li>Put off making an actual reel until a job opportunity forced my hand</li>
 </ol>
-<h2 id="extending-beyond-templates">Extending Beyond Templates</h2>
-<p>While creating my template was my first custom lua script for reaper, the potential applications for scripting new workflows are pretty well documented. The classic ones I&rsquo;ve known of include:</p>
+<p>I&rsquo;ve been needing a system that&rsquo;s low-friction enough that I&rsquo;ll actually use it, but structured enough that it would automatically organize everything for me.</p>
+<p>When I&rsquo;m in the middle of a workflow, the last thing I want to do is stop, switch contexts, set up a screen recorder, figure out where to save the file, and then try to remember to organize it all later. By the time I think about my portfolio again, the thing I was up to three months ago is buried in project files or worse - completely gone because the project got turned over.</p>
+<h2 id="v0">v0</h2>
+<p>I created a simple workflow that sits in Obsidian (where I already track all my projects) and makes portfolio documentation a two-second decision rather than a whole process. It&rsquo;s basically just three scripts:</p>
 <ul>
-<li>Batch processing audio assets for game implementation</li>
-<li>Creating custom audio analysis tools specific to game requirements</li>
-<li>Automating the export process to middleware like Wwise or FMOD</li>
-<li>Building specialized editing interfaces for dialogue, foley, or ambience work</li>
-<li>Handling repetitive and tedious metadata tasks</li>
+<li>A capture tool that hooks into OBS + a metadata generator that organizes clips by type and year</li>
+<li>A reel generator that automatically compiles everything with proper titles</li>
+<li>A bash script to run the capture tool</li>
 </ul>
-<h2 id="version-control-and-documentation">Version Control and Documentation</h2>
-<p>One aspect of scripting that I&rsquo;ve found particularly valuable is the ability to use proper version control. Hopefully one day version control systems can exist for designers with the same ubiquity as they do for devs. Or maybe they already do!</p>
-<p>For personal organization, I also keep a consolidated folder of scripts in Obsidian, with notes about how and when to use each one. This text-based approach integrates really well with my existing day to day work and makes everything searchable.</p>
-<h2 id="next-steps">Next Steps</h2>
-<p>My current exploration is focused on building more integrated workflows between REAPER and Wwise through their respective APIs. The goal is to create a more seamless pipeline from sound creation to game implementation, reducing the friction that typically exists between these environments.</p>
-<p>Currently working on scripts that:</p>
+<p>The idea is dead simple: when I do something worth documenting, I trigger the capture script (I use <a href="https://kando.menu/" target="_blank">Kando</a>, but a hotkey would work too), answer three quick questions, and boom - it records what I&rsquo;m doing, stops when I tell it to, and files it away with proper metadata. Later, when I need to show someone my work, I run one command and get a professional-looking reel that&rsquo;s ready to share.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The workflow keeps track of:</p>
 <ul>
-<li>Tag regions in REAPER and have them automatically create corresponding events in Wwise</li>
-<li>Configure parameters in REAPER and have them reflected in Wwise&rsquo;s RTPCs</li>
-<li>Test game audio behaviors directly from within your DAW environment</li>
+<li>Multiple reel types (sound design, music composition, tech audio implementation)</li>
+<li>Project metadata (client, role, year)</li>
+<li>Clip ordering and trimming</li>
+<li>Text overlays and transitions</li>
 </ul>
-<h2 id="assists-from-continuedev">Assists from continue.dev</h2>
-<p>Another approach that has significantly accelerated my Lua development is using AI-assisted coding tools. I&rsquo;ll open my .lua files (or .scd files for SuperCollider, or even .maxpatch files) in VSCodium with <a href="https://www.continue.dev/" target="_blank">continue.dev</a> connected to my openwebui or ollama instance. This setup acts as a real-time coding assistant that checks my code for correctness and provides suggestions for refining existing features or adding new ones I hadn&rsquo;t considered.</p>
-<p>This approach has been particularly helpful when starting a new script. Like &ldquo;draft the high level organization for a krell patch in supercollider&rdquo;. It&rsquo;s awesome to just be able to focus on creative implementation rather than boilerplate setup.</p>
+<p>Everything gets saved into a structured directory that looks like this:</p>
+<pre tabindex="0"><code>reel/
+├── sound-design/
+│   ├── 2025/
+│   │   ├── 1.mp4
+│   │   ├── 1.yaml
+│   │   ├── 2.mp4
+│   │   └── 2.yaml
+├── composition/
+│   └── 2025/
+└── implementation/
+    └── 2025/
+</code></pre><p>Each clip gets a YAML file that looks something like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Amazing Sound Design for Amazing Experience&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">role</span>: <span style="color:#e6db74">&#34;Sound Designer&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">client</span>: <span style="color:#e6db74">&#34;Amazing Studios&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">year</span>: <span style="color:#ae81ff">2025</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">order</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">start</span>: <span style="color:#ae81ff">10</span> <span style="color:#75715e"># in seconds</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">end</span>: <span style="color:#ae81ff">40</span> <span style="color:#75715e"># same here</span>
+</span></span></code></pre></div><p>When I need a reel, I just run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python create_reel.py sound-design <span style="color:#ae81ff">2025</span>
+</span></span></code></pre></div><p>And it exports a fully compiled reel with text overlays and transitions.</p>
+<h2 id="who-cares">Who cares</h2>
+<p>This is a workflow that feels like it&rsquo;s helped solve a persistent problem for me. Sound design is sorta ephemeral in a way that visual art isn&rsquo;t. Documenting the process helps translate the work for other collaborators and non-designers by showcasing not just the final sound, but the context and intention behind it. When others can see how sound design transforms an experience, they better understand the value we bring to projects. It bridges the gap between &ldquo;sounds good&rdquo; and &ldquo;here&rsquo;s exactly how sound transformed this experience.&rdquo;</p>
+<p>What I&rsquo;ve found is that by removing the friction, I&rsquo;m way more consistent about building my portfolio over time rather than scrambling to put something together when an opportunity comes up.</p>
+<p>The biggest benefit is psychological - now I feel like I&rsquo;m building something lasting when I work on projects, not just delivering files that might disappear into the ether.</p>
 <h2 id="give-it-a-go">Give it a go</h2>
-<p>I&rsquo;ll be sharing more of my scripts on <a href="https://github.com/danialrami/reaper-scripts" target="_blank">GitHub</a> in the future. What started as curiosity about Lua scripts on the monome norns has evolved into an essential part of the way I think about audio design – one that continues to open new possibilities for creating and implementing audio efficiently and creatively.</p>
+<p>I&rsquo;ve put the code on <a href="https://github.com/danialrami/portfolio-reel" target="_blank">GitHub</a> if you&rsquo;re interested in trying it or adapting it for your own workflow. It&rsquo;s not fancy, but who wants fancy? The readme has all the setup instructions.</p>
+<p>Would love to hear what solutions you&rsquo;ve come up with 👏 more soon.</p>
 
   
   <hr>
 <div class="footer">
     
 	    
-            <a class="previous-post" href="https://danialrami.com/posts/extract-wisdom/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Extract Wisdom</a>
+            <a class="previous-post" href="https://danialrami.com/posts/lua-in-reaper/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Lua in REAPER</a>
         
 	    
             <div class="next-post">
-                <a href="https://danialrami.com/posts/portfolio-problems/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Portfolio Problems</a>
+                <a href="https://danialrami.com/posts/mcps-and-gen%C3%A8se-dod%C3%A9caphonique/?ref=footer"><span style="font-weight:bold;">Next »</span><br>MCPs and Genese Dodecaphonique</a>
             </div>
         
     
@@ -621,14 +612,9 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
       <h4 id="contents"></h4>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#multi-daw">Multi-DAW</a></li>
-    <li><a href="#lua-scripting-in-reaper">Lua Scripting in REAPER</a></li>
-    <li><a href="#creating-an-orchestral-template-in-lua">Creating an Orchestral Template in Lua</a></li>
-    <li><a href="#lua-for-audio-workflows">Lua for Audio Workflows</a></li>
-    <li><a href="#extending-beyond-templates">Extending Beyond Templates</a></li>
-    <li><a href="#version-control-and-documentation">Version Control and Documentation</a></li>
-    <li><a href="#next-steps">Next Steps</a></li>
-    <li><a href="#assists-from-continuedev">Assists from continue.dev</a></li>
+    <li><a href="#v0">v0</a></li>
+    <li><a href="#how-it-works">How It Works</a></li>
+    <li><a href="#who-cares">Who cares</a></li>
     <li><a href="#give-it-a-go">Give it a go</a></li>
   </ul>
 </nav>
