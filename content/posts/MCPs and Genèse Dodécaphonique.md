@@ -153,7 +153,7 @@ An audio-focused MCP server could provide LLMs with direct control over:
 
 Imagine prompting an LLM with:
 
-> "Create an evolving pad sound based on Merlet's Mode 3 with increasing tension over 16 bars, export as MIDI and send parameter automation to my instance of Vital synth"
+> "Create an evolving pad sound based on Merlet's Mode 3 with increasing tension over 16 bars, export as MIDI and send parameter automation to my instance of Serum"
 
 The MCP server would:
 
