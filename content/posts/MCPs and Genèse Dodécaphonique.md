@@ -3,16 +3,16 @@ title: MCPs and Genese Dodecaphonique
 date: 2025-05-16
 draft: false
 ---
-Years ago, as a student of the French composer Michel Merlet, I was introduced to his unique theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
+In 2017, I was a student of the French composer Michel Merlet, and he introduced me to his theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
 
 I've been thinking about Merlet recently, and how musical frameworks like his create a stable foundation for tonal exploration. Shoulders of giants and all that. I was trying to see if I could come up with a way to codify this foundation in a tool that I can mess around and prod a bit -- I love the determinism of this system, but I wanted a way to visualize it a bit better, and even bounce ideas off of it. 
 
-That's when I learned about MCPs, which I'll get back to in a sec.
+That's when I learned about MCPs, which I'll get back to in a sec..
 ## The Merlet System Explained
 
 The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
 
-[^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it!
+[^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it! You'll end up with some pretty cool effects 🤝
 
 The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:
 
@@ -167,11 +167,5 @@ This level of integration would transform how we approach sound design, bridging
 The marriage of specialized musical knowledge with the emerging capabilities of LLMs and Model Context Protocols represents a new frontier for sound designers. By building custom tools that encapsulate theoretical frameworks like Merlet's modal system, we can make complex musical concepts immediately applicable to our creative workflows.
 
 As we continue to develop these integrations, the boundary between conceptual thinking and implementation will become increasingly fluid. Sound designers will be able to move seamlessly between high-level musical ideas and their concrete sonic realizations, opening new possibilities for creative exploration.
-
-I invite fellow sound designers to experiment with custom LLM tools and contribute to the development of audio-focused MCPs. The code for my Merlet Mode Generator is available at [repository link], and I welcome collaboration on extending its capabilities.
-
----
-
-_What innovative ways are you using LLMs in your sound design workflow? I'd love to hear your thoughts and experiences in the comments below._
 
 [^1]: 
