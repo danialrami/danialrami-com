@@ -3,7 +3,7 @@ title: MCPs and Merlet
 date: 2025-05-16
 draft: false
 ---
-In 2017, I was a student of French composer Michel Merlet, and he introduced me to his theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
+In 2017, I was a student of French composer [Michel Merlet](https://en.wikipedia.org/wiki/Michel_Merlet), and he introduced me to his theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
 
 I've been thinking about Merlet recently, and how musical frameworks like his create a stable foundation for tonal exploration. Shoulders of giants and all that. I was trying to see if I could come up with a way to codify this foundation in a tool that I can mess around and prod a bit -- I love the determinism of this system, but I wanted a way to visualize it a bit better, and even bounce ideas off of it. 
 
