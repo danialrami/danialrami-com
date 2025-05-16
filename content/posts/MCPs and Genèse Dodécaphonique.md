@@ -55,7 +55,7 @@ What makes Merlet's system particularly valuable is how it connects mathematical
 
 Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.
 
-Model Context Protocols (MCPs) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
+[Model Context Protocols (MCPs)](https://www.anthropic.com/news/model-context-protocol) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
 
 What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters, MCPs allow natural language to serve as the interface to complex systems. You can literally ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.
 
@@ -68,8 +68,6 @@ In essence, MCPs create a collaborative environment where your understanding of 
 With this framework in mind, I decided to create a practical example — a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.
 
 The implementation process itself was enlightening. Translating Merlet's visual diagram into code required me to formalize aspects of the system that I had previously internalized more intuitively. I needed to define precise data structures for the modes, their symmetry types, and historical references:
-
-python
 
 ```python
 from enum import Enum
@@ -111,6 +109,8 @@ And receive a comprehensive table showing each mode, its symmetry properties, sc
 |Mode 1: Triton|antipodal|C Gb|Db D Eb E F G Ab A Bb B|Ballif - À cor et à cri (1962)|
 |Mode 2: 8÷2-5|symmetric|C D E Gb|Db Eb F G Ab A Bb B|Messiaen - 4e partie de l'Ascension (1933)|
 |...|...|...|...|...|
+
+![Image Description](/images/Screenshot%202025-05-16%20at%203.39.00%20PM.png)
 
 ## Applications for Sound Designers
 

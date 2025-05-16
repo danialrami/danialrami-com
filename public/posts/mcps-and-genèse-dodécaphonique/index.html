@@ -561,14 +561,13 @@ The traditional seven-note scale (like major and minor scales) with its characte
 <p>What makes Merlet&rsquo;s system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren&rsquo;t merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century.</p>
 <h2 id="model-context-protocols">Model Context Protocols</h2>
 <p>Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.</p>
-<p>Model Context Protocols (MCPs) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.</p>
+<p><a href="https://www.anthropic.com/news/model-context-protocol" target="_blank">Model Context Protocols (MCPs)</a> represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.</p>
 <p>What excites me about MCPs is their potential to create conversational interfaces to specialized domains like music theory and sound design. Rather than building rigid user interfaces with predetermined parameters, MCPs allow natural language to serve as the interface to complex systems. You can literally ask the system to explore theoretical concepts, and it will do the computational heavy lifting behind the scenes.</p>
 <p>For creative fields like sound design and music composition, this approach holds particular promise. Musical concepts often exist in a space between abstract theory and concrete implementation — a gap that has traditionally required significant mental translation work. MCPs can bridge this gap by allowing LLMs to reason about musical structures while connecting to the tools that actually produce or manipulate sound.</p>
 <p>In essence, MCPs create a collaborative environment where your understanding of musical theory (augmented by the LLM&rsquo;s broader knowledge) can directly inform technical implementation without requiring you to manually translate between these domains. You can focus on creative exploration while the system handles the technical execution.</p>
 <h2 id="case-study-shoulders-of-giants">Case Study: Shoulders of Giants</h2>
 <p>With this framework in mind, I decided to create a practical example — a custom LLM tool that generates Merlet modes for any given root note. This Python-based tool would encapsulate the theoretical framework while making it immediately applicable to compositional work.</p>
 <p>The implementation process itself was enlightening. Translating Merlet&rsquo;s visual diagram into code required me to formalize aspects of the system that I had previously internalized more intuitively. I needed to define precise data structures for the modes, their symmetry types, and historical references:</p>
-<p>python</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> enum <span style="color:#f92672">import</span> Enum
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> dataclasses <span style="color:#f92672">import</span> dataclass
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> typing <span style="color:#f92672">import</span> List, Optional
@@ -638,6 +637,7 @@ The traditional seven-note scale (like major and minor scales) with its characte
       </tr>
   </tbody>
 </table>
+<p><img src="/images/Screenshot%202025-05-16%20at%203.39.00%20PM.png" alt="Image Description"></p>
 <h2 id="applications-for-sound-designers">Applications for Sound Designers</h2>
 <p>The implications for sound design go beyond mere academic interest. By encoding Merlet&rsquo;s theoretical framework into an accessible tool, we open up several practical applications:</p>
 <h3 id="1-compositional-frameworks">1. Compositional Frameworks</h3>
