@@ -69,7 +69,7 @@ What makes Merlet's system particularly valuable is how it connects mathematical
 
 ## Model Context Protocols
 
-Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.
+Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through [tools](https://docs.openwebui.com/features/plugin/) - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.
 
 [Model Context Protocols (MCPs)](https://www.anthropic.com/news/model-context-protocol) represent the next evolution in this ecosystem — standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.
 
