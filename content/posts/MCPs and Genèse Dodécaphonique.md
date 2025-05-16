@@ -128,7 +128,7 @@ And receive a comprehensive table showing each mode, its symmetry properties, sc
 
 ![Image Description](/images/Screenshot%202025-05-16%20at%203.39.00%20PM.png)
 
-## Applications for Sound Designers
+## Applications
 
 The implications for sound design go beyond mere academic interest. By encoding Merlet's theoretical framework into an accessible tool, we open up several practical applications:
 
