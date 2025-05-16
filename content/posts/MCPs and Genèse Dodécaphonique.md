@@ -16,7 +16,7 @@ The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Miche
 The system is visually represented as a clock-like circular diagram, with the twelve chromatic tones arranged around the perimeter. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:
 
 ![Image Description](/images/attachments/MusicChart_120120v2.jpg)
-*Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, many years ago!*
+*Shoutout to Ash Suh for making this copy for me, many years ago!*
 
 The modes are numbered from 0 to 12:
 
