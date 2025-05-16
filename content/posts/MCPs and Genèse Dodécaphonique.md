@@ -3,17 +3,18 @@ title: MCPs and Genese Dodecaphonique
 date: 2025-05-16
 draft: false
 ---
-## Introduction
+Years ago, as a student of the French composer Michel Merlet, I was introduced to his unique theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
 
-As a sound designer working across various digital audio workstations and interactive media, I've always been fascinated by the intersection of music theory, technology, and creative workflows. Years ago, as a student of the renowned French composer Michel Merlet, I was introduced to his unique theoretical framework called "Genèse Dodécaphonique des Modes" – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.
+I've been thinking about Merlet recently, and how musical frameworks like his create a stable foundation for tonal exploration. Shoulders of giants and all that. I was trying to see if I could come up with a way to codify this foundation in a tool that I can mess around and prod a bit -- I love the determinism of this system, but I wanted a way to visualize it a bit better, and even bounce ideas off of it. 
 
-Today, we stand at an exciting crossroads where large language models (LLMs) are transforming creative workflows across disciplines. In this post, I'll demonstrate how sound designers can leverage custom LLM tools to bridge theoretical musical concepts with practical applications, using Merlet's modal system as a concrete example.
-
+That's when I learned about MCPs, which I'll get back to in a sec.
 ## The Merlet System Explained
 
-The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage.
+The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
 
-The system is visually represented as a clock-like circular diagram, with the twelve chromatic tones arranged around the perimeter. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:
+[^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it!
+
+The system was first illustrated to me in the diagram below -- visually represented as a clock-like circular diagram. At 12 o' clock, we take the octave and split it into 12 -- our chromatic scale. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:
 
 ![Image Description](/images/attachments/MusicChart_120120v2.jpg)
 *Shoutout to [Ash Suh](https://ashsuh.com/) for making this copy for me, many years ago!*
@@ -46,7 +47,7 @@ The traditional seven-note scale (like major and minor scales) with its characte
 
 The diagram also shows modes 8-12, which complement modes 4-0 respectively, creating a symmetrical relationship within the system.
 
-What makes Merlet's system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren't merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting evenly."
+What makes Merlet's system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren't merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century.
 
 ## LLM Tools & Model Context Protocols (MCPs)
 
@@ -172,3 +173,5 @@ I invite fellow sound designers to experiment with custom LLM tools and contribu
 ---
 
 _What innovative ways are you using LLMs in your sound design workflow? I'd love to hear your thoughts and experiences in the comments below._
+
+[^1]: 
