@@ -26,26 +26,42 @@ The modes are numbered from 0 to 12:
 **Mode 0: Chromatic (12-12=0)**  
 The complete chromatic scale using all twelve tones. It has no complementary structure ("absence de complémentarité") and is historically exemplified in Schoenberg's "Valse, Cinq pièces opus 23" (1923).
 
+**Mode 0: Chromatic (12-12=0)**  
+The complete chromatic scale using all twelve tones. It has no complementary structure (“absence de complémentarité”) and is historically exemplified in Schoenberg’s “Valse, Cinq pièces opus 23” (1923).  
+- [Listen: Schoenberg – Fünf Klavierstücke Op. 23, No. 5 "Walzer" (Pina Napolitano, piano)](https://www.youtube.com/watch?v=2lFZf69B2gQ)
+- [Alternate: Full set performed by Eduard Steuermann](https://www.youtube.com/watch?v=XoyJFHtQiBU)
+
 **Mode 1: Tritone**  
-Based on the tritone interval (6 semitones), creating an "antipodal" symmetry that divides the octave precisely in half. Historically referenced in Ballif's "À cor et à cri" (1962).
+Based on the tritone interval (6 semitones), creating an “antipodal” symmetry that divides the octave precisely in half. Historically referenced in Ballif’s “À cor et à cri” (1962).  
+- [Listen: Claude Ballif – À cor et à cri (Orchestre National, cond. Lucas Vis)](https://www.discogs.com/release/25363444-Claude-Ballif-Untitled)[2](https://www.discogs.com/release/25363444-Claude-Ballif-Untitled)
 
 **Mode 2: 8÷2=5 (Diminished)**  
-Created with consistent 2-semitone intervals, producing a symmetrical diminished structure. Exemplified in Messiaen's "4e partie de l'Ascension" (1933).
+Created with consistent 2-semitone intervals, producing a symmetrical diminished structure. Exemplified in Messiaen’s “4e partie de l’Ascension” (1933).  
+- [Listen: Messiaen – L’Ascension: IV. "Prière du Christ montant vers son Père" (London Symphony Orchestra, cond. Myung-Whun Chung)](https://www.youtube.com/watch?v=SG_zYdWBm4o)
 
 **Mode 3: 8÷3=8/3 (Augmented)**  
-Based on consistent 4-semitone intervals (major thirds), creating a perfectly symmetrical augmented structure. Found in Messiaen's "Thème et variations" (1932).
+Based on consistent 4-semitone intervals (major thirds), creating a perfectly symmetrical augmented structure. Found in Messiaen’s “Thème et variations” (1932).  
+- [Listen: Messiaen – Thème et variations (Daniel Kurganov, violin & Constantine Finehouse, piano)](https://www.youtube.com/watch?v=VLWtEETh04o)
+- [Alternate: Alexi Kenney, violin & Victor Asuncion, piano](https://www.youtube.com/watch?v=eGMQ_t9PFXE)
 
 **Mode 4: 8÷4=7**  
-A symmetrical mode built on 3-semitone jumps, as used in Stravinsky's "Symphonie des psaumes" (1930).
+A symmetrical mode built on 3-semitone jumps, as used in Stravinsky’s “Symphonie des psaumes” (1930).  
+- [Listen: Stravinsky – Symphonie de Psaumes (Orchestra e Coro del Teatro La Fenice, cond. Riccardo Muti)](https://www.youtube.com/watch?v=DOEr5Qbdgmo)
+- [Alternate: Radio Philharmonic Orchestra & Netherlands Radio Choir, cond. Peter Dijkstra](https://www.youtube.com/watch?v=AEx9NxFJ09Y)
 
 **Mode 5: Pentatonic**  
-The asymmetrical five-note scale, historically referenced in Fauré's "Fantaisie pour piano et orchestre" (1919).
+The asymmetrical five-note scale, historically referenced in Fauré’s “Fantaisie pour piano et orchestre” (1919).  
+- [Listen: Fauré – Fantaisie for Piano and Orchestra, Op. 111 (Alicia de Larrocha, London Philharmonic Orchestra, cond. Rafael Frühbeck de Burgos)](https://www.youtube.com/watch?v=GHNSk77TUHU)
+- [Alternate: Grant Johannesen, piano & London Symphony Orchestra, cond. Sir Eugene Goossens](https://www.youtube.com/watch?v=jqL8dbD2kb8)
 
 **Mode 6: Par tons (Whole Tone)**  
-Composed of consistent whole-tone intervals (2 semitones), creating perfect symmetry. Exemplified in Debussy's "Voiles" from his first book of Preludes (1910).
+Composed of consistent whole-tone intervals (2 semitones), creating perfect symmetry. Exemplified in Debussy’s “Voiles” from his first book of Preludes (1910).  
+- [Listen: Debussy – Voiles (Daniel Barenboim, piano)](https://www.youtube.com/watch?v=UUygwCxUjMQ)
+- [Alternate: Orchestral arrangement by Royal Scottish National Orchestra, cond. Jun Märkl](https://www.youtube.com/watch?v=535hjwrgf40)
 
 **Mode 7: Diatonic**  
-The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel's "La décronnelle" (1908).
+The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel’s “La Laideronnette"
+- [Listen: Ravel – La Laideronnette](https://www.youtube.com/watch?v=N_ENSdLOblk&t=363s)
 
 The diagram also shows modes 8-12, which complement modes 4-0 respectively, creating a symmetrical relationship within the system.
 
