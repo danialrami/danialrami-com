@@ -171,7 +171,7 @@ The key is that MCP just provides an interface with the rest of your code. So yo
 
 Imagine prompting an LLM with:
 
-> "Create an evolving pad sound based on Merlet's Mode 3 with increasing tension over 16 bars, export as MIDI and send parameter automation to my instance of Serum"
+> "Create an evolving pad sound based on Merlet's Mode 3 with increasing tension over 16 bars, export as MIDI and send CC parameter automation to my instance of Serum2"
 
 The MCP server would:
 
@@ -182,12 +182,12 @@ The MCP server would:
 5. Export directly to your DAW or synth
 	- see my previous post about [scripting in REAPER](https://danialrami.com/posts/lua-in-reaper/)
 
-This level of integration would transform how we approach sound design, bridging the gap between theoretical concepts and practical implementation.
+This level of integration would influence how we approach sound design, bridging the gap between theoretical concepts and practical implementation.
 
 ## Conclusion
 
-The marriage of specialized musical knowledge with the emerging capabilities of LLMs and Model Context Protocols could represent a new interface for audio people. By building tools that encapsulate theoretical frameworks like Merlet's modal system, we can make complex musical concepts immediately applicable to our creative workflows.
+The marriage of specialized musical knowledge with the emerging capabilities of LLMs and Model Context Protocols could represent a new interface for audio folks. By building tools that encapsulate theoretical frameworks like Merlet's modal system, we can make complex musical concepts immediately applicable to our creative workflows.
 
-As we continue to develop these integrations, the boundary between conceptual thinking and implementation will become increasingly fluid. Sound designers will be able to move seamlessly between high-level musical ideas and their concrete sonic realizations, opening new possibilities for creative exploration.
+As we continue to develop these integrations, I hope that the boundary between conceptual thinking and implementation will become increasingly fluid. Sound designers should be able to move seamlessly between high-level musical ideas and their concrete realizations. I'll be diving into this more going forward 🫡
 
 [^1]: 
