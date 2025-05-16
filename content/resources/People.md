@@ -8,11 +8,13 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 
 ## Music
 - [Music Thing Modular](https://www.musicthing.co.uk/)
+- [Perfect Circuit](https://www.perfectcircuit.com/signal)
 
 ## Indieweb Stuff
-- [Maggie Appleton](https://maggieappleton.com/)
+- [Rob Bridgett](https://robbridgett.com/)
+- [nadia.audio](https://nadia.audio/)
 
 ## Tech
 
-- Jeff Geerling
-- Network Chuck
+- [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
+- [Network Chuck](https://www.youtube.com/@NetworkChuck)
