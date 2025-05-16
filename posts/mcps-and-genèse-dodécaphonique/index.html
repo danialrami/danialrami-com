@@ -518,7 +518,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
           
         
 
-        <span>7 mins read</span>
+        <span>8 mins read</span>
       </span>
     </div>
 
@@ -531,12 +531,12 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   
 </div>
 
-  <h2 id="introduction">Introduction</h2>
-<p>As a sound designer working across various digital audio workstations and interactive media, I&rsquo;ve always been fascinated by the intersection of music theory, technology, and creative workflows. Years ago, as a student of the renowned French composer Michel Merlet, I was introduced to his unique theoretical framework called &ldquo;Genèse Dodécaphonique des Modes&rdquo; – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.</p>
-<p>Today, we stand at an exciting crossroads where large language models (LLMs) are transforming creative workflows across disciplines. In this post, I&rsquo;ll demonstrate how sound designers can leverage custom LLM tools to bridge theoretical musical concepts with practical applications, using Merlet&rsquo;s modal system as a concrete example.</p>
+  <p>Years ago, as a student of the French composer Michel Merlet, I was introduced to his unique theoretical framework called &ldquo;Genèse Dodécaphonique des Modes&rdquo; – a systematic approach to understanding modal structures within the twelve-tone system. This framework has profoundly influenced my approach to composition and sound design over the years.</p>
+<p>I&rsquo;ve been thinking about Merlet recently, and how musical frameworks like his create a stable foundation for tonal exploration. Shoulders of giants and all that. I was trying to see if I could come up with a way to codify this foundation in a tool that I can mess around and prod a bit &ndash; I love the determinism of this system, but I wanted a way to visualize it a bit better, and even bounce ideas off of it.</p>
+<p>That&rsquo;s when I learned about MCPs, which I&rsquo;ll get back to in a sec.</p>
 <h2 id="the-merlet-system-explained">The Merlet System Explained</h2>
-<p>The &ldquo;Genèse Dodécaphonique des Modes&rdquo; (Dodecaphonic Genesis of Modes) is Michel Merlet&rsquo;s systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet&rsquo;s system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage.</p>
-<p>The system is visually represented as a clock-like circular diagram, with the twelve chromatic tones arranged around the perimeter. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:</p>
+<p>The &ldquo;Genèse Dodécaphonique des Modes&rdquo; (Dodecaphonic Genesis of Modes) is Michel Merlet&rsquo;s systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet&rsquo;s system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion &ndash; &ldquo;let&rsquo;s start with the octave, and keep splitting.&rdquo; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The system was first illustrated to me in the diagram below &ndash; visually represented as a clock-like circular diagram. At 12 o&rsquo; clock, we take the octave and split it into 12 &ndash; our chromatic scale. Each mode is color-coded and radiates from the center, creating a visual map of tonal relationships:</p>
 <p><img src="/images/attachments/MusicChart_120120v2.jpg" alt="Image Description">
 <em>Shoutout to <a href="https://ashsuh.com/" target="_blank">Ash Suh</a> for making this copy for me, many years ago!</em></p>
 <p>The modes are numbered from 0 to 12:</p>
@@ -557,7 +557,7 @@ Composed of consistent whole-tone intervals (2 semitones), creating perfect symm
 <p><strong>Mode 7: Diatonic</strong><br>
 The traditional seven-note scale (like major and minor scales) with its characteristic asymmetrical pattern of whole and half steps. Referenced in Ravel&rsquo;s &ldquo;La décronnelle&rdquo; (1908).</p>
 <p>The diagram also shows modes 8-12, which complement modes 4-0 respectively, creating a symmetrical relationship within the system.</p>
-<p>What makes Merlet&rsquo;s system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren&rsquo;t merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion &ndash; &ldquo;let&rsquo;s start with the octave, and keep splitting evenly.&rdquo;</p>
+<p>What makes Merlet&rsquo;s system particularly valuable is how it connects mathematical properties with historical compositions, demonstrating that these structures aren&rsquo;t merely theoretical but have been intuitively discovered and employed by composers throughout the 20th century.</p>
 <h2 id="llm-tools--model-context-protocols-mcps">LLM Tools &amp; Model Context Protocols (MCPs)</h2>
 <p>Large Language Models have evolved beyond simple text generation into powerful assistants that can extend their capabilities through tools - specialized programs that perform specific functions when called by the LLM. These tools enable LLMs to perform calculations, retrieve information, or generate specialized content outside their training parameters.</p>
 <p>Model Context Protocols (MCPs) represent the next evolution in this ecosystem - standardized ways for LLMs to interact with external tools, data sources, and computation engines. Unlike one-off custom tools, MCPs provide a framework for developers to create consistent, reusable interfaces between models and external systems.</p>
@@ -684,6 +684,14 @@ The traditional seven-note scale (like major and minor scales) with its characte
 <p>I invite fellow sound designers to experiment with custom LLM tools and contribute to the development of audio-focused MCPs. The code for my Merlet Mode Generator is available at [repository link], and I welcome collaboration on extending its capabilities.</p>
 <hr>
 <p><em>What innovative ways are you using LLMs in your sound design workflow? I&rsquo;d love to hear your thoughts and experiences in the comments below.</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Notice I didn&rsquo;t say split <strong>evenly</strong> &ndash; while this system does work whether using just intonation/equal temperament/something else, it was described to me in the western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
   
   <hr>
@@ -706,7 +714,6 @@ The traditional seven-note scale (like major and minor scales) with its characte
       <h4 id="contents"></h4>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a></li>
     <li><a href="#the-merlet-system-explained">The Merlet System Explained</a></li>
     <li><a href="#llm-tools--model-context-protocols-mcps">LLM Tools &amp; Model Context Protocols (MCPs)</a></li>
     <li><a href="#case-study-building-a-merlet-mode-generator-tool">Case Study: Building a Merlet Mode Generator Tool</a></li>
