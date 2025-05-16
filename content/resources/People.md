@@ -75,7 +75,7 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
       <path d="M100,30 C130,30 150,50 150,80 C180,80 200,100 200,130 C200,160 180,180 150,180 L50,180 C20,180 0,160 0,130 C0,100 20,80 50,80 C50,50 70,30 100,30 Z" fill="#fbf9e2"/>
       <circle cx="70" cy="100" r="15" fill="#000"/>
       <circle cx="130" cy="100" r="15" fill="#000"/>
-      <text x="100" y="120" font-family="Verdana, Geneva, sans-serif" font-size="40" fill="#000" text-anchor="middle" alignment-baseline="middle" style="letter-spacing:2px;">LUFS</text>
+      <text x="100" y="120" font-family="Verdana, Geneva, sans-serif" font-size="40" fill="#000" text-anchor="middle" alignment-baseline="middle" style="letter-spacing:2px;"></text>
     </svg>
   </a>
 </body>
