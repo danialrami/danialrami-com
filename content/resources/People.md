@@ -30,6 +30,7 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 - [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
 - [Network Chuck](https://www.youtube.com/@NetworkChuck)
 
+
 <html lang="en">
 
 <head>
