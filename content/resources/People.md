@@ -29,14 +29,13 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 
 - [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
 - [Network Chuck](https://www.youtube.com/@NetworkChuck)
-
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 
-<title>Daniel Ramirez's Retro Button</title>
+<title>Enhanced Daniel Ramirez's Retro Button</title>
 
 <style>
 
@@ -56,6 +55,74 @@ box-shadow: 4px 4px 0 #888;
 
 }
 
+@keyframes float {
+
+0%, 100% {
+
+transform: translateY(0);
+
+}
+
+50% {
+
+transform: translateY(-5px);
+
+}
+
+}
+
+@keyframes eyeBlink {
+
+0%, 10%, 90%, 100% {
+
+transform: scaleY(1);
+
+}
+
+15%, 85% {
+
+transform: scaleY(0.1);
+
+}
+
+}
+
+@keyframes rainbow {
+
+0% { background-position: 0% 0%; }
+
+100% { background-position: 100% 100%; }
+
+}
+
+body {
+
+background: #1a1a1a;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 100vh;
+
+margin: 0;
+
+}
+
+.button-container {
+
+position: relative;
+
+width: 88px;
+
+height: 31px;
+
+margin: 30px;
+
+}
+
 .webring-button {
 
 animation: pulseShadow 2s infinite;
@@ -71,8 +138,6 @@ overflow: hidden;
 cursor: pointer;
 
 text-decoration: none;
-
-background: #e0e0e0;
 
 border: 2px solid #b0b0b0;
 
@@ -92,6 +157,8 @@ transition: background 0.1s;
 
 position: relative;
 
+z-index: 1;
+
 }
 
 .webring-button:hover {
@@ -100,7 +167,39 @@ animation-play-state: paused;
 
 box-shadow: none;
 
-background: #d0d0d0;
+}
+
+.webring-button:hover::after {
+
+content: "danialrami!";
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+height: 100%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+background: rgba(0,0,0,0.7);
+
+color: white;
+
+font-family: "Comic Sans MS", cursive;
+
+font-size: 12px;
+
+font-weight: bold;
+
+text-shadow: 1px 1px 0 #000;
 
 }
 
@@ -112,9 +211,181 @@ height: 31px;
 
 display: block;
 
-margin: 0 auto;
+}
 
-background: #e0e0e0;
+/* Pixelated background effect */
+
+.pixelated-bg {
+
+position: absolute;
+
+top: -2px;
+
+left: -2px;
+
+width: 92px;
+
+height: 35px;
+
+background-image: linear-gradient(
+
+45deg,
+
+#ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff
+
+);
+
+background-size: 600% 600%;
+
+animation: rainbow 8s linear infinite;
+
+opacity: 0.3;
+
+z-index: -1;
+
+}
+
+/* Pixel grid overlay */
+
+.pixel-overlay {
+
+position: absolute;
+
+top: -2px;
+
+left: -2px;
+
+width: 92px;
+
+height: 35px;
+
+background-image:
+
+linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+
+linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px);
+
+background-size: 2px 2px;
+
+z-index: 2;
+
+pointer-events: none;
+
+}
+
+/* Animated clouds */
+
+.cloud {
+
+animation: float 3s ease-in-out infinite;
+
+}
+
+/* First cloud floats differently */
+
+.cloud:nth-child(1) {
+
+animation-delay: 0s;
+
+}
+
+/* Second cloud floats differently */
+
+.cloud:nth-child(2) {
+
+animation-delay: 0.5s;
+
+}
+
+/* Third cloud floats differently */
+
+.cloud:nth-child(3) {
+
+animation-delay: 1s;
+
+}
+
+/* Animated eyes */
+
+.cloud-eye {
+
+animation: eyeBlink 4s infinite;
+
+transform-origin: center;
+
+}
+
+/* First cloud eyes blink differently */
+
+.cloud:nth-child(1) .cloud-eye {
+
+animation-delay: 0s;
+
+}
+
+/* Second cloud eyes blink differently */
+
+.cloud:nth-child(2) .cloud-eye {
+
+animation-delay: 1.5s;
+
+}
+
+/* Third cloud eyes blink differently */
+
+.cloud:nth-child(3) .cloud-eye {
+
+animation-delay: 2.5s;
+
+}
+
+/* MS Paint style cursor */
+
+.cursor {
+
+position: absolute;
+
+width: 20px;
+
+height: 20px;
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M0 0L0 19L5 15L10 20L12 17L7 13L13 13Z' fill='black'/%3E%3Cpath d='M1 1L1 17L5 14L10 18L11 16L6 12L12 12Z' fill='white'/%3E%3C/svg%3E");
+
+pointer-events: none;
+
+z-index: 100;
+
+animation: cursorMove 5s infinite;
+
+}
+
+@keyframes cursorMove {
+
+0% { top: 50px; left: 20px; }
+
+25% { top: 10px; left: 70px; }
+
+50% { top: 30px; left: 30px; }
+
+75% { top: 20px; left: 50px; }
+
+100% { top: 50px; left: 20px; }
+
+}
+
+/* Paint spots */
+
+.paint-spot {
+
+position: absolute;
+
+width: 4px;
+
+height: 4px;
+
+border-radius: 50%;
+
+z-index: 0;
 
 }
 
@@ -124,6 +395,64 @@ background: #e0e0e0;
 
 <body>
 
+<div class="button-container">
+
+<!-- MS Paint style cursor -->
+
+<div class="cursor"></div>
+
+<!-- Paint spots with JavaScript -->
+
+<script>
+
+// Create paint splotches
+
+const colors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#8b00ff'];
+
+for (let i = 0; i < 20; i++) {
+
+const spot = document.createElement('div');
+
+spot.className = 'paint-spot';
+
+// Set random positions around the button
+
+const top = Math.random() * 60 - 15;
+
+const left = Math.random() * 120 - 15;
+
+// Random color
+
+const color = colors[Math.floor(Math.random() * colors.length)];
+
+// Random size
+
+const size = 3 + Math.random() * 4;
+
+spot.style.cssText = `
+
+top: ${top}px;
+
+left: ${left}px;
+
+background: ${color};
+
+width: ${size}px;
+
+height: ${size}px;
+
+`;
+
+document.querySelector('.button-container').appendChild(spot);
+
+}
+
+</script>
+
+<!-- Rainbow background -->
+
+<div class="pixelated-bg"></div>
+
 <a href="https://danialrami.com" class="webring-button" title="danialrami.com!">
 
 <svg width="88" height="31" viewBox="0 0 264 62" xmlns="http://www.w3.org/2000/svg">
@@ -132,49 +461,55 @@ background: #e0e0e0;
 
 <!-- Cloud 1 -->
 
-<g>
+<g class="cloud">
 
 <path d="M44,10 C57,10 66,18 66,29 C79,29 88,37 88,50 C88,62 79,70 66,70 L22,70 C9,70 0,62 0,50 C0,37 9,29 22,29 C22,18 31,10 44,10 Z"
 
 fill="#d8d8d8" stroke="#888" stroke-width="3"/>
 
-<circle cx="31" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="31" cy="40" r="7" fill="#222" />
 
-<circle cx="57" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="57" cy="40" r="7" fill="#222" />
 
 </g>
 
 <!-- Cloud 2 -->
 
-<g transform="translate(88,0)">
+<g class="cloud" transform="translate(88,0)">
 
 <path d="M44,10 C57,10 66,18 66,29 C79,29 88,37 88,50 C88,62 79,70 66,70 L22,70 C9,70 0,62 0,50 C0,37 9,29 22,29 C22,18 31,10 44,10 Z"
 
 fill="#d8d8d8" stroke="#888" stroke-width="3"/>
 
-<circle cx="31" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="31" cy="40" r="7" fill="#222" />
 
-<circle cx="57" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="57" cy="40" r="7" fill="#222" />
 
 </g>
 
 <!-- Cloud 3 -->
 
-<g transform="translate(176,0)">
+<g class="cloud" transform="translate(176,0)">
 
 <path d="M44,10 C57,10 66,18 66,29 C79,29 88,37 88,50 C88,62 79,70 66,70 L22,70 C9,70 0,62 0,50 C0,37 9,29 22,29 C22,18 31,10 44,10 Z"
 
 fill="#d8d8d8" stroke="#888" stroke-width="3"/>
 
-<circle cx="31" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="31" cy="40" r="7" fill="#222" />
 
-<circle cx="57" cy="40" r="7" fill="#222" />
+<circle class="cloud-eye" cx="57" cy="40" r="7" fill="#222" />
 
 </g>
 
 </svg>
 
 </a>
+
+<!-- Pixel overlay for that MS Paint feel -->
+
+<div class="pixel-overlay"></div>
+
+</div>
 
 </body>
 
@@ -185,7 +520,7 @@ fill="#d8d8d8" stroke="#888" stroke-width="3"/>
 
 <meta charset="UTF-8">
 
-<title>LUFS Retro Button</title>
+<title>Enhanced LUFS Retro Button</title>
 
 <style>
 
@@ -205,6 +540,66 @@ box-shadow: 4px 4px 0 #888;
 
 }
 
+@keyframes sparkleAnim {
+
+0% { opacity: 0; transform: scale(0.2) rotate(0deg); }
+
+50% { opacity: 1; transform: scale(1) rotate(180deg); }
+
+100% { opacity: 0; transform: scale(0.2) rotate(360deg); }
+
+}
+
+@keyframes bgScroll {
+
+0% { background-position: 0 0; }
+
+100% { background-position: 88px 31px; }
+
+}
+
+body {
+
+background: #1a1a1a;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 100vh;
+
+margin: 0;
+
+}
+
+.button-container {
+
+position: relative;
+
+width: 88px;
+
+height: 31px;
+
+margin: 30px;
+
+}
+
+.sparkle {
+
+position: absolute;
+
+width: 8px;
+
+height: 8px;
+
+background: transparent;
+
+animation: sparkleAnim 2s infinite;
+
+}
+
 .webring-button {
 
 animation: pulseShadow 2s infinite;
@@ -220,8 +615,6 @@ overflow: hidden;
 cursor: pointer;
 
 text-decoration: none;
-
-background: #e0e0e0;
 
 border: 2px solid #b0b0b0;
 
@@ -241,6 +634,8 @@ transition: background 0.1s;
 
 position: relative;
 
+z-index: 1;
+
 }
 
 .webring-button:hover {
@@ -249,7 +644,39 @@ animation-play-state: paused;
 
 box-shadow: none;
 
-background: #d0d0d0;
+}
+
+.webring-button:hover::after {
+
+content: "CLICK ME!";
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+height: 100%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+background: rgba(0,0,0,0.7);
+
+color: white;
+
+font-family: "Comic Sans MS", cursive;
+
+font-size: 12px;
+
+font-weight: bold;
+
+text-shadow: 1px 1px 0 #000;
 
 }
 
@@ -261,9 +688,37 @@ height: 31px;
 
 display: block;
 
-margin: 0 auto;
+}
 
-background: #e0e0e0;
+.button-bg {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+height: 100%;
+
+background: repeating-linear-gradient(
+
+45deg,
+
+#ff00ff,
+
+#ff00ff 5px,
+
+#00ffff 5px,
+
+#00ffff 10px
+
+);
+
+animation: bgScroll 8s linear infinite;
+
+opacity: 0.2;
 
 }
 
@@ -319,7 +774,61 @@ fill: #e7b225;
 
 <body>
 
-<a href="https://lufsaudio.com" class="webring-button" title="LUFS Audio">
+<div class="button-container">
+
+<!-- Generate sparkles with JavaScript -->
+
+<script>
+
+// Create 12 sparkles
+
+for (let i = 0; i < 12; i++) {
+
+const sparkle = document.createElement('div');
+
+sparkle.className = 'sparkle';
+
+// Set random positions
+
+const top = Math.random() * 60 - 15; // wider range to go outside button
+
+const left = Math.random() * 120 - 15;
+
+// Set random colors - 90s style!
+
+const colors = ['#ff00ff', '#00ffff', '#ffff00', '#ff0000', '#00ff00', '#0000ff'];
+
+const color = colors[Math.floor(Math.random() * colors.length)];
+
+// Set random start time
+
+const delay = Math.random() * 2;
+
+// Create sparkle star shape with CSS
+
+sparkle.style.cssText = `
+
+top: ${top}px;
+
+left: ${left}px;
+
+background: ${color};
+
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+animation-delay: ${delay}s;
+
+`;
+
+document.querySelector('.button-container').appendChild(sparkle);
+
+}
+
+</script>
+
+<a href="https://lufs.audio" class="webring-button" title="LUFS Audio">
+
+<div class="button-bg"></div>
 
 <svg width="88" height="31" viewBox="0 0 959.4 226.8" xmlns="http://www.w3.org/2000/svg">
 
@@ -366,6 +875,8 @@ fill: #e7b225;
 </svg>
 
 </a>
+
+</div>
 
 </body>
 
