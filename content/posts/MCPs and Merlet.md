@@ -10,7 +10,7 @@ I've been thinking about Merlet recently, and how musical frameworks like his cr
 That's when I learned about MCPs, which I'll get back to in a sec..
 ## Merlet's System
 
-The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to categorizing and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
+The "Genèse Dodécaphonique des Modes" (Dodecaphonic Genesis of Modes) is Michel Merlet's systematic approach to deriving, categorizing, and understanding various modal structures within the twelve-tone musical system. Unlike conventional classifications, Merlet's system organizes modes based on their mathematical properties, symmetrical characteristics, and historical usage. My favorite part is how it recontextualizes tonal music away from the traditional Greek modes, it takes a step further back and begins with a simple notion -- "let's start with the octave, and keep splitting." [^1]
 
 [^1]: Notice I didn't say split **evenly** -- while this system does work whether using just intonation/equal temperament/something else, it was described to me in the context of Western tradition, so the rest of this post will follow suit. But, at the end of the day its splitting octaves, so if you want to keep going past 12, go for it! You'll end up with some pretty cool effects 🤝
 
