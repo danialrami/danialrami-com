@@ -4,7 +4,7 @@ date: 2025-01-01
 draft: false
 ---
 
-I'll link to other people's websites here. These are either folks whose work I enjoy, or who have directly/indirectly helped me learn something new.
+I'll link to other people's websites here. These are either folks whose work I enjoy, or who have directly/indirectly helped me learn something. 
 
 ## Music
 
@@ -22,6 +22,7 @@ I'll link to other people's websites here. These are either folks whose work I e
 - [Aria Beingessner](https://faultlore.com/)
 - [Sudara](https://melatonin.dev/)
 - [Arden Butterfield](https://github.com/ArdenButterfield)
+- [Benn Jordan](https://www.youtube.com/@BennJordan)
 
 ## Tech
 
