@@ -4,9 +4,10 @@ date: 2025-01-01
 draft: false
 ---
 
-I'll link to other people's websites here. I'm taking inspiration from [webrings](https://indieweb.org/webring) on this page.
+I'll link to other people's websites here. These are either folks whose work I enjoy, or who have directly/indirectly helped me learn something new.
 
 ## Music
+
 - [Music Thing Modular](https://www.musicthing.co.uk/)
 - [Perfect Circuit](https://www.perfectcircuit.com/signal)
 - [Airwiggles](https://www.airwiggles.com/)
@@ -16,7 +17,20 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 - [nadia.audio](https://nadia.audio/)
 - [Michael Britten](https://michaelbritten.music/)
 
+## Audio Tech
+
+- [Aria Beingessner](https://faultlore.com/)
+- [Sudara](https://melatonin.dev/)
+- [Arden Butterfield](https://github.com/ArdenButterfield)
+
+## Tech
+
+- [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
+- [Network Chuck](https://www.youtube.com/@NetworkChuck)
+- [Steph Ango](https://stephango.com/)
+
 ## Indieweb Stuff
+
 - [32bit.cafe](https://32bit.cafe/)
 - [Dreamwidth](https://www.dreamwidth.org/)
 - [Hotline](https://hotlinewebring.club/)
@@ -24,9 +38,3 @@ I'll link to other people's websites here. I'm taking inspiration from [webrings
 - [wiby](https://wiby.org/)
 - [micro.blog](https://micro.blog/)
 - [skyjake](https://gmi.skyjake.fi/)
-
-## Tech
-
-- [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
-- [Network Chuck](https://www.youtube.com/@NetworkChuck)
-
