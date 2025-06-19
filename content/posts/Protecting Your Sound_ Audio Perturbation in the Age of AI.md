@@ -1,6 +1,6 @@
 ---
 title: Protecting Your Sound
-date: 2025-05-21
+date: 2025-05-28
 draft: true
 ---
 

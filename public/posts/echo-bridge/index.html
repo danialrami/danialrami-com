@@ -49,14 +49,18 @@
 
 
 
+  
+  
+  
+
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name"></title>
-<meta property="og:title" content=ZgotmplZ />
-<meta name="twitter:title" content=ZgotmplZ />
-<meta itemprop="name" content=ZgotmplZ />
-<meta name="application-name" content=ZgotmplZ />
+<title itemprop="name"> - Echo Bridge</title>
+<meta property="og:title" content=&#32;-&#32;Echo&#32;Bridge />
+<meta name="twitter:title" content=&#32;-&#32;Echo&#32;Bridge />
+<meta itemprop="name" content=&#32;-&#32;Echo&#32;Bridge />
+<meta name="application-name" content=&#32;-&#32;Echo&#32;Bridge />
 <meta property="og:site_name" content="" />
 
 
@@ -66,18 +70,17 @@
 <meta name="twitter:description" content="" />
 
 
-<base href="https://danialrami.com/tags/" />
-<link rel="canonical" href="https://danialrami.com/tags/" itemprop="url" />
-<meta name="url" content="https://danialrami.com/tags/" />
-<meta name="twitter:url" content="https://danialrami.com/tags/" />
-<meta property="og:url" content="https://danialrami.com/tags/" />
+<base href="https://danialrami.com/posts/echo-bridge/" />
+<link rel="canonical" href="https://danialrami.com/posts/echo-bridge/" itemprop="url" />
+<meta name="url" content="https://danialrami.com/posts/echo-bridge/" />
+<meta name="twitter:url" content="https://danialrami.com/posts/echo-bridge/" />
+<meta property="og:url" content="https://danialrami.com/posts/echo-bridge/" />
 
 
-<meta property="og:updated_time" content="0001-01-01T00:00:00Z" />
+<meta property="og:updated_time" content="2025-06-19T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://danialrami.com/sitemap.xml' />
-<link href="https://danialrami.com/tags/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -495,13 +498,114 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Tags</h1>
-<ul class="entries">
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://danialrami.com/posts/echo-bridge/">Echo Bridge</a>
+  </h1>
 
+  <div class="headline">
+    <div>
+      
+      
+      <time datetime=" 2025-06-19T00:00:00Z" class="post-date">
+        June 19, 2025
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>4 mins read</span>
+      </span>
+    </div>
+
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+  <p>I recently visited a well-known local landmark in San Antonio called Echo Bridge and was inspired to package it up for use in my work. At first I thought I&rsquo;d do a tried and true convolution reverb, in the style of the <a href="https://www.perfectcircuit.com/tasty-chips-integral.html" target="_blank">Tasty Chips pedal</a>, but I realized that I could create something much more flexible than just a distillation of the landmark.</p>
+<h2 id="the-sound-of-echo-bridge">The Sound of Echo Bridge</h2>
+<p>Echo Bridge is well known for its <a href="https://texashighways.com/culture/arts-entertainment/in-appreciation-of-echo-bridge-the-coolest-music-venue-in-texas/" target="_blank">near-perfect natural acoustics and incredible echo effects</a>. The concrete arch structure of the Mrs. Frank W. Sorrell Bridge creates an acoustic phenomenon where sounds can return up to 15 reverberations, with sharp sounds like handclaps repeating as many as 25 times. Around San Antonio, there are often concerts that take place here specifically because of its acoustic properties. It&rsquo;s pre-delay sounded to me like something close to around 0.4 seconds, with a dark and almost plate-y sound &ndash; probably because of the metal on top of the bridge, not sure. It&rsquo;s definitely unique and provided the perfect inspo for this project.</p>
+<h2 id="the-hardware">The Hardware</h2>
+<p>For the hardware, I chose the <a href="https://github.com/clevelandmusicco" target="_blank">Hothouse</a> pedal from <a href="https://clevelandmusicco.com/" target="_blank">Cleveland Music</a>, which provided a form factor that I could optimize for. It&rsquo;s also based on the <a href="https://electro-smith.com/products/daisy-seed?variant=45234245140772" target="_blank">Daisy Seed</a>, which means that this pedal can always be reflashed with a new firmware if I ever wanted in the future. The Hothouse&rsquo;s six knobs and three switches give me plenty of real-time control over the complex DSP algorithms, while the dual footswitches allow for intuitive performance switching between effects.</p>
+<p><img src="/images/IMG_3755.jpeg" alt="Image Description"></p>
+<h2 id="the-software">The Software</h2>
+<p>I was inspired by an open source project I found based on the Hothouse form factor called the <a href="https://github.com/joulupukki/hothouse-effects/tree/main/src/Flick" target="_blank">Flick</a>. Huge shoutout to this project! The original author has written that they intended to create a compact alternative to the Strymon Flint, combining reverb, tremolo, and delay effects into a single pedal that could fit on smaller pedalboards. Their goal was to replace multiple pedals (delay, tremolo, and reverb) while maintaining the quality and character of dedicated units.</p>
+<p>However, I still wanted to make sure the reverb was close to Echo Bridge, while retaining the flexibility to explore beyond just convolution. By building on the Flick&rsquo;s foundation, I could create something that captures the specific character of this San Antonio landmark while offering the versatility of programmable DSP effects.</p>
+<h2 id="the-website">The Website</h2>
+<p>After I got the hardware working, I created a comprehensive <a href="https://echobridge.lufs.audio" target="_blank">manual website</a> for the Echo Bridge pedal. I wanted to create something that would help users bond with the pedal quickly and reference settings easily. The site features:</p>
+<ul>
+<li>
+<p><strong>Comprehensive control tables</strong> documenting every knob, switch, and footswitch function</p>
+</li>
+<li>
+<p><strong>Patch Configurations</strong> for classic sounds like the original Echo Bridge tone</p>
+</li>
+<li>
+<p><strong>Edit mode documentation</strong> for deep reverb parameter tweaking</p>
+</li>
+<li>
+<p><strong>Animated background elements</strong> that give it a playful, technical feel</p>
+</li>
+</ul>
+<p>The website uses a flat, retro design philosophy with no rounded corners, pixelated image rendering, and CRT-style text glows that complement the pedal&rsquo;s vintage-inspired sound character.</p>
+<iframe src="https://echobridge.lufs.audio/" 
+        style="width: 100%; height: 500px; border: none;" 
+        title="Echo Bridge - LUFS Audio">
+</iframe>
+## Key Features
+<p>The Echo Bridge pedal ended up being much more than just a reverb unit. Here&rsquo;s what it can do (again, big shoutout to the original Flick!):</p>
+<p><strong>Reverb Engine</strong>: Six-parameter reverb with pre-delay, decay, diffusion, and frequency filtering - all accessible through the edit mode for deep sound design.</p>
+<p><strong>Tremolo Section</strong>: Three waveforms (sine, triangle, square) with speed and depth controls, plus makeup gain compensation.</p>
+<p><strong>Delay Line</strong>: Full-featured delay with time, feedback, and mix controls that can work independently or alongside the other effects.</p>
+<p><strong>Smart Footswitch Logic</strong>: The dual footswitches handle multiple functions - reverb on/off with edit mode access, and delay/tremolo switching with visual LED feedback.</p>
+<h2 id="reflections">Reflections</h2>
+<p>While I started with the goal of capturing Echo Bridge&rsquo;s specific character, I ended up creating something I&rsquo;d consider to be much more flexible - a tool that can evoke that space while also exploring entirely new sonic territories.</p>
+<p>The combination of open-source inspiration, local landmarks, and modern DSP feels like the perfect intersection of my interests. Plus, having a pedal that can always be reflashed means this is really just the beginning - I can continue developing new algorithms and features as my understanding of both the hardware and the acoustic space evolves.</p>
+<p>If you&rsquo;re interested in checking out the full manual and technical specifications, you can explore the <a href="https://github.com/danialrami/echo-bridge-manual" target="_blank">repo</a> of the website I built, complete with all the control mappings, preset configurations, and that retro aesthetic that matches the pedal&rsquo;s vintage-inspired sound.</p>
+<p>And if you want a pedal, hit me up! I&rsquo;ll build one for you if you send me the parts 👍</p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://danialrami.com/posts/mcps-and-merlet/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>MCPs and Merlet</a>
+        
+	    
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-sound-of-echo-bridge">The Sound of Echo Bridge</a></li>
+    <li><a href="#the-hardware">The Hardware</a></li>
+    <li><a href="#the-software">The Software</a></li>
+    <li><a href="#the-website">The Website</a></li>
+    <li><a href="#reflections">Reflections</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>
