@@ -1,5 +1,5 @@
 ---
-title: Echo Bridge
+title: Echo Bridge Effects Pedal
 date: 2025-06-19
 draft: false
 ---
