@@ -45,7 +45,7 @@ The website uses a flat, retro design philosophy with no rounded corners, pixe
 
 ## Key Features
 
-The Echo Bridge pedal ended up being much more than just a reverb unit. Here's what it can do (again, big shoutout to the original Flick!):
+The Echo Bridge pedal ended up being much more than just a reverb unit. Again, big shoutout to the original Flick for the amazing UX! Here's what this pedal does: 
 
 **Reverb Engine**: Six-parameter reverb with pre-delay, decay, diffusion, and frequency filtering - all accessible through the edit mode for deep sound design.
 
