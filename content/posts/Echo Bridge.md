@@ -4,7 +4,7 @@ date: 2025-06-19
 draft: false
 ---
 
-I recently visited a well-known local landmark in San Antonio called Echo Bridge and was inspired by it for my work. At first I thought I'd do a true convolution reverb, in the style of the [Tasty Chips pedal](https://www.perfectcircuit.com/tasty-chips-integral.html), but I realized that I could create something much more flexible than just a distillation of the landmark.
+I recently visited a well-known local landmark called Echo Bridge and was inspired by it for my work. At first I thought I'd do a true convolution reverb, in the style of the [Tasty Chips pedal](https://www.perfectcircuit.com/tasty-chips-integral.html), but I realized that I could create something much more flexible than just a distillation of the landmark.
 
 ## The Sound of Echo Bridge
 
