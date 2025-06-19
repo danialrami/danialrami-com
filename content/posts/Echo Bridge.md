@@ -36,9 +36,13 @@ After I got the hardware working, I created a comprehensive [manual website](ht
 The website uses a flat, retro design philosophy with no rounded corners, pixelated image rendering, and CRT-style text glows that complement the pedal's vintage-inspired sound character.
 
 <iframe src="https://echobridge.lufs.audio/" 
-        style="width: 100%; height: 500px; border: none;" 
-        title="Echo Bridge - LUFS Audio">
+        width="100%" 
+        height="700" 
+        title="Echo Bridge Guitar Effects - LUFS Audio" 
+        style="border: 1px solid #ccc; border-radius: 8px;"
+        loading="lazy">
 </iframe>
+
 ## Key Features
 
 The Echo Bridge pedal ended up being much more than just a reverb unit. Here's what it can do (again, big shoutout to the original Flick!):
