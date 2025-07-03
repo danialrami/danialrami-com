@@ -210,4 +210,4 @@ Then it's as simple as running the server and connecting it to your LLM of choic
 
 Building specialized MCP servers for audio workflows represents a shift in how we might interact with powerful but complex tools. By maintaining human control over the actual processing while leveraging conversational interfaces for orchestration, we get the best of both worlds: the precision of deterministic tools and the ease of natural language interaction.
 
-For sound designers and audio engineers who live in the command line, tools like this can dramatically streamline repetitive tasks while maintaining the control and predictability we need. If you end up trying it out, let me know!
+For sound designers and audio engineers who live in the command line, tools like this can dramatically streamline repetitive tasks while maintaining the control and predictability we need. If you end up trying it out, let me know! more soon 👏
