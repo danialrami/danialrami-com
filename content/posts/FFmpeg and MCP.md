@@ -1,5 +1,5 @@
 ---
-title: FFmpeg MCP Server
+title: FFmpeg and MCP 
 date: 2025-07-03
 draft: false
 ---
