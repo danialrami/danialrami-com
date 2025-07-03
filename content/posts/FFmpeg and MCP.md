@@ -204,7 +204,7 @@ If you want to try this yourself, you'll need:
 2. Docker installed and running
 3. The MCP framework - `pip install mcp`
 
-Then it's as simple as running the server and connecting it to your LLM of choice. The [full documentation and code are on GitHub](https://github.com/danialrami/ffmpeg-mcp-server).
+Then it's as simple as running the server and connecting it to your LLM of choice. The full documentation and code are on [GitHub](https://github.com/danialrami/ffmpeg-mcp-server).
 
 ## Conclusion
 
