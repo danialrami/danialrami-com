@@ -4,7 +4,7 @@ date: 2025-07-03
 draft: false
 ---
 
-I've been processing a lot of field recordings lately, and found myself repeatedly running the same FFmpeg commands across directories full of audio files. Convert to a consistent format, apply some normalization, maybe add a touch of EQ — the usual suspects. Each time, I'd write a quick bash script, tweak it for the specific task, and move on. But after the dozenth time doing this dance, I started thinking about building something more robust.
+I've been processing a lot of field recordings lately, and found myself repeatedly running the same FFmpeg commands across directories full of audio files. Convert to a consistent format, apply some normalization, maybe add EQ + whatever. Each time, I'd write a quick bash script, tweak it for the specific task, and move on. But after the dozenth time doing this dance, I started thinking about building something more robust.
 
 That's when I realized this was a perfect use case for an MCP server.
 
