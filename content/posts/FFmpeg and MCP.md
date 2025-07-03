@@ -14,9 +14,9 @@ FFmpeg is one of those tools that's simultaneously incredibly powerful and somew
 
 The real challenge comes with batch processing. Sure, you can write shell scripts, but they're often brittle, platform-specific, and don't handle edge cases well. What if a file is corrupted? What if you accidentally run the same command twice? What if you need to process files larger than expected?
 
-## Enter Model Context Protocols
+## MCPs (reprised)
 
-As I wrote about in my [previous post on MCPs and Merlet](https://danialrami.com/posts/mcps-and-merlet/), Model Context Protocol servers provide a standardized way for LLMs to interact with external tools and systems. But here's the key insight: MCPs aren't about replacing human expertise with AI magic. They're about creating conversational interfaces to specialized tools while keeping the actual processing deterministic and under your control.
+As I wrote about in my [previous post on MCPs](https://danialrami.com/posts/mcps-and-merlet/), Model Context Protocol servers provide a standardized way for LLMs to interact with external tools and systems. But here's the key insight: MCPs aren't about replacing human expertise with AI magic. They're about creating conversational interfaces to specialized tools while keeping the actual processing deterministic and under your control.
 
 This distinction is crucial for audio work. When I'm processing field recordings or preparing stems for a mix, I need to know exactly what transformations are being applied. I can't have an AI making creative decisions about my audio — but I'd love to have a more intuitive interface to the powerful tools I already use.
 
