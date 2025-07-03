@@ -121,7 +121,7 @@ Finally, the LLM will then say something -- probably in cheery way lol -- along 
 
 The first time i ran than this, it hit me that this was a little universal scripter, isolated to only use ffmpeg for security, and powered by years of my own skillset development. Nice!
 
-Here are some more examples. Say I have a folder of field recordings in various formats — some 96kHz FLACs from my Zoom, some M4As from my phone, maybe MP3s from collaborators. I want them all normalized and in a consistent format for editing.
+Here are some more examples. Say I have a folder of field recordings in various formats — some 96kHz wavs from my Zoom, some m4a's from my phone, maybe mp3s from collaborators. I want them all normalized and in a consistent format for editing.
 
 ### Example 1: Simple Format Conversion
 ```json
