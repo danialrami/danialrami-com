@@ -13,7 +13,7 @@
       <link>https://danialrami.com/posts/ffmpeg-and-mcp/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://danialrami.com/posts/ffmpeg-and-mcp/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been processing a lot of field recordings lately, and found myself repeatedly running the same FFmpeg commands across directories full of audio files. Convert to a consistent format, apply some normalization, maybe add a touch of EQ — the usual suspects. Each time, I&amp;rsquo;d write a quick bash script, tweak it for the specific task, and move on. But after the dozenth time doing this dance, I started thinking about building something more robust.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been processing a lot of field recordings lately, and found myself repeatedly running the same FFmpeg commands across directories full of audio files. Convert to a consistent format, apply some normalization, maybe add EQ + whatever. Each time, I&amp;rsquo;d write a quick bash script, tweak it for the specific task, and move on. But after the dozenth time doing this dance, I started thinking about building something more robust.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Echo Bridge Effects Pedal</title>
