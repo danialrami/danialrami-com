@@ -22,6 +22,7 @@ I'll link to other people's websites here. These are either folks whose work I e
 - [Aria Beingessner](https://faultlore.com/)
 - [Sudara](https://melatonin.dev/)
 - [Arden Butterfield](https://github.com/ArdenButterfield)
+- [terromino](https://terromino.com/#)
 - [Randy Jones](https://github.com/madronalabs)
 - [Benn Jordan](https://www.youtube.com/@BennJordan)
 
@@ -30,6 +31,8 @@ I'll link to other people's websites here. These are either folks whose work I e
 - [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
 - [Network Chuck](https://www.youtube.com/@NetworkChuck)
 - [Steph Ango](https://stephango.com/)
+- [jackis.online](https://www.jackis.online/)
+- [endtimes.dev](https://endtimes.dev/)
 
 ## Indieweb Stuff
 
